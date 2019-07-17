@@ -1,0 +1,264 @@
+*{
+margin: 0;padding: 0;
+}
+body
+{
+	max-width: 650px;
+	min-width: 375px;
+	margin: auto;
+	font-family: 'Roboto';
+}
+.clear
+{
+	clear: both;
+}
+.main
+{
+	width: 100%;
+}
+.main-right
+{
+	max-width: 100%;
+
+	padding: 20px;
+}
+.main-right-info
+{
+	position: relative;
+}
+.main-right-content
+{
+	width: 100%;
+	margin: auto;
+}
+.main-right-content-title
+{
+	font-size: 22px;
+	color: #1B1B1B;
+	font-weight: bold;
+	line-height: 25px;
+	position: relative;
+	padding-bottom: 21px;
+	border-bottom: 1px solid #D0E0EB;
+}
+.main-right-content-close
+{
+	width: 14px;
+	height: 14px;
+	font-size: 14px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.main-right-content-title_2
+{
+	margin-top: 27px;
+	height: 19px;
+	font-size: 16px;
+	color: #2D2D2D;
+	font-weight: bold;
+	line-height: 19px;
+}
+.main-right-content-choise 
+{
+	margin-top: 21px;
+}
+.main-right-content-choise-li
+{
+	width: calc(100% / 3 - 7px);
+	height: 45px;
+	border-radius: 3px;
+	padding-left: 8px;
+	display: flex;align-items: center;
+	float: left;
+	font-size: 12px;
+	margin-right: 10px;
+}
+.main-right-content-choise-li:nth-child(3)
+{
+	margin-right: 0;
+}
+.main-right-content-choise-li.fb
+{
+	background-color: #4267B2;
+}
+.main-right-content-choise-li.gplus
+{
+	background-color: #D34836;
+}
+.main-right-content-choise-li.phone
+{
+	background-color:#248445;
+}
+.main-right-content-choise-li_text
+{
+		height: 17px;	width: 61px;	color: #FFFFFF;	font-size: 12px;	line-height: 17px;
+		margin-left: 7px;
+}
+.main-right-content-or
+{
+	clear: bold;
+	color: #2D2D2D;
+	font-size: 16px;
+	font-weight: bold;line-height: 19px;
+	margin-top: 35px;
+}
+.main-right-content-form 
+{
+	clear: both;
+	margin-top: 20px;
+}
+.field {
+  display: flex;
+  flex-flow: column-reverse;
+  border: 1px solid #D1D1D1;
+  height: 50px;
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  width:100%;
+  max-width: 100%;
+}
+.field.password
+{
+	width: calc(100% / 2 - 5px) !important; margin-right: 10px;
+	float: left;
+}
+.field.password:nth-child(2)
+{
+	margin-right: 0;
+}
+label, input {
+  transition: all 0.2s;
+  touch-action: manipulation;
+}
+input[type="text"],input[type="email"],input[type="password"] {
+	max-width: 100%;
+	font-size: 13px;
+	border: none;
+	font-family: inherit;
+	-webkit-appearance: none;
+	border-radius: 0;
+	padding: 6px 13px;
+	cursor: text;
+	color: #1B1B1B;
+	position: absolute;
+	top: 0px;
+	height: 50px;
+	width: 100%;
+	border-radius: 3px;
+	background:none;
+
+}
+
+input:focus {
+  outline: 0;
+}
+
+label {
+  /*letter-spacing: 0.05em;*/
+
+  font-size: 9px;
+  color: #1B1B1B;opacity: 0.5;
+}
+input:placeholder-shown + label {
+	  max-width: 66%;
+  cursor: text;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform-origin: left bottom;
+  transform: translate(13px, -5px) scale(1.5);
+  color: black;
+}
+::-webkit-input-placeholder {
+  opacity: 0;
+  transition: inherit;
+}
+input:focus::-webkit-input-placeholder {
+  opacity: 1;
+}
+input:not(:placeholder-shown) + label,
+input:focus + label {
+  transform: translate(13px, -20px) scale(1);
+  cursor: pointer;
+}
+
+.main-right-content-checked
+{
+	margin-top: 10px;
+}
+.main-right-content-checked input[type="checkbox"]
+{
+	width: 17px;
+	height: 17px;
+	background-color: red;
+	margin-top: 3px;
+}
+.main-right-content-checked-input
+{
+	float: left;
+}
+.main-right-content-checked-text
+{
+	width: calc(100% - 20px);
+	float: right;
+	font-size: 14px;
+}
+.main-right-content-checked-text a
+{
+	color: #248445;
+}
+.main-right-content-submit
+{
+	margin-top: 19px;
+}
+.submit-success
+{
+	height: 55px;
+	width: 100%;border: none;
+	border-radius: 3px;
+	color: #FFF;
+	background-color: #248445;
+}
+.main-right-content-have-account
+{
+	text-align: center;
+	font-size: 14px;
+	line-height: 22px;
+	margin-top: 19px;
+}
+.main-right-content-have-account a
+{
+	color: #248445;
+}
+.main-right-content-checked-save
+{
+	margin-top: 10px;font-size: 14px;
+	height: 25px;
+	width: 100%;
+	display: flex;align-items: center;
+}
+.main-right-content-checked-save input[type="checkbox"]
+{	
+	margin-right: 8px;
+	width: 17px;
+	height: 17px;
+	background-color: red;
+	margin-top: 3px;
+}
+.main-right-content-checked-input-save
+{
+	height: 25px;
+	font-size: 14px;
+	flex: 1;
+}
+.main-right-content-checked-text-save
+{
+	width: calc(100% - 20px);
+	float: right;
+	font-size: 14px;
+	flex: 1;
+	display: flex;
+	justify-content: flex-end;
+}

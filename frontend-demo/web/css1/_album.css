@@ -1,0 +1,14 @@
+div.customer div.pull-left{
+    padding-top: 5px;
+}
+div.box-share-button{}
+div.box-share-button button{
+    height: 35px;
+    width: 35px;
+    border-radius: 17.5px;
+    background-color: #F3F3F3;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+div.box-share-button button i{}

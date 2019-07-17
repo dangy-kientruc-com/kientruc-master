@@ -1,0 +1,57 @@
+/**
+phan thay doi category
+ */
+div.kt-head {
+    background-image: none;
+}
+
+nav.kt-main-menu {
+    padding: 9px 0;
+}
+
+nav.kt-main-menu div.kt-pull-left {
+    padding-right: 0;
+    width: 520px;
+}
+
+nav.kt-main-menu div.kt-pull-left div.kt-fr-search{
+    width: 315px;
+    padding-left: 35px;
+}
+nav.kt-main-menu div.kt-pull-left div.kt-fr-search input{
+    width: 280px;
+    padding-left: 32px;
+}
+nav.kt-main-menu div.kt-pull-left div.kt-fr-search button{
+    right: inherit;
+    left: 38px;
+}
+/**
+end phan thay doi category
+ */
+
+div.kt-category-bo-loc {
+    height: 110px;
+    background-color: #F2F2F2;
+    padding: 38px 30px;
+}
+
+div.kt-category-bo-loc div.float-left h2 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    margin: 0;
+}
+
+div.kt-category-bo-loc div.pull-right {
+}
+
+div.kt-project-item div.item-image img {
+    max-height: 215px;
+}
+
+.select2-container--bootstrap .select2-selection--single .select2-selection__arrow i{
+    top: 40%;
+    position: absolute;
+}

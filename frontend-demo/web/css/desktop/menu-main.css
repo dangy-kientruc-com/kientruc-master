@@ -1,0 +1,1051 @@
+/**
+** phan logo
+** phan file search chung
+** phan menu chinh
+** phan footer
+** phan qua chuong ring
+ */
+
+/** MENU MAIN DESKTOP CSS **/
+div.kt-head.kt-fixed {
+    position: fixed;
+    background-color: white;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+div.box-fix-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.padding-box-desktop{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/** LOGO */
+nav.main-menu {
+}
+
+nav.main-menu div.float-left {
+    padding: 15px 0;
+}
+
+nav.main-menu div.float-right {
+    padding-right: 30px;
+}
+
+div.kt-logo {
+    width: 170px;
+    height: 40px;
+    float: left;
+    position: relative;
+    padding: 5px 0;
+    margin-left: 30px;
+}
+
+div.kt-logo .kt-logo_a {
+    color: #474747;
+}
+
+div.kt-logo .kt-logo_img {
+    border-radius: 4px;
+    height: 30px;
+    width: 30px;
+    border-top: 1px solid #238646;
+    border-left: 3px solid #238646;
+    border-right: 3px solid #238646;
+    border-bottom: 3px solid #238646;
+    display: inline-block;
+}
+
+div.kt-logo .kt-logo_name {
+    display: inline-block;
+    line-height: 18px;
+    font-weight: 900;
+    font-size: 16px;
+    vertical-align: top;
+    margin-left: 2px;
+}
+
+div.kt-logo .kt-logo_dot-com {
+    display: inline-block;
+    line-height: 18px;
+    font-size: 16px;
+    margin-left: -3px;
+    vertical-align: top;
+}
+
+div.kt-logo .kt-logo_slogan {
+    display: block;
+    line-height: 18px;
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    font-size: 11px;
+    margin-left: 30px;
+}
+
+/** END LOGO */
+
+/** BOX SEARCH TOP HEADER **/
+div.kt-search {
+    float: left;
+    position: relative;
+}
+
+div.kt-search .kt-search_input {
+    height: 40px;
+    border: 1px solid #D1D1D1;
+    border-radius: 20px;
+    background-color: #FFFFFF !important;
+    font-size: 12px;
+    width: 250px;
+    padding: 0 30px 0 15px;
+}
+
+div.kt-search .kt-search_button {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    border-width: 0;
+    border-radius: 50px;
+    color: #474747;
+    font-size: 13px;
+    right: 0;
+}
+
+/** END BOX SEARCH TOP HEADER **/
+
+/** NAV MENU MAIN */
+nav.main-menu ul {
+    margin-bottom: 0;
+    line-height: 40px;
+    position: relative;
+}
+
+nav.main-menu ul li {
+    float: left;
+    margin-left: 10px;
+}
+
+nav.main-menu ul li a {
+    display: block;
+    position: relative;
+}
+
+nav.main-menu ul li a:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #248444;
+    content: '';
+    z-index: 1;
+    display: none;
+}
+
+nav.main-menu ul li a span {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 70px;
+    padding: 0 10px;
+    display: block;
+    position: relative;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+nav.main-menu ul li a span:after {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    content: '';
+    z-index: 4;
+    display: none;
+}
+
+nav.main-menu ul li a.clr {
+    float: left;
+}
+
+nav.main-menu ul li a button {
+    margin: 0;
+    height: 40px;
+    border-radius: 22.5px;
+    font-weight: 500;
+}
+
+nav.main-menu ul li.group-01,
+nav.main-menu ul li.group-02,
+nav.main-menu ul li.group-03,
+nav.main-menu ul li.more {
+    padding: 15px 0;
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+
+nav.main-menu ul li.group-01:hover a:before,
+nav.main-menu ul li.group-02:hover a:before,
+nav.main-menu ul li.group-03:hover a:before {
+    display: none;
+}
+
+nav.main-menu ul li.group-01 a button {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(36, 132, 68, 0.38);
+    color: #248444;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+nav.main-menu ul li.group-01:hover a button {
+    background-color: #248444;
+    color: white;
+}
+
+nav.main-menu ul li.group-02 a button {
+    background-color: #248444;
+    border-width: 0;
+    color: white;
+    width: 98px;
+    text-align: center;
+}
+
+nav.main-menu ul li.group-03{
+    position: relative;
+}
+
+nav.main-menu ul li.group-03 .dropdown-menu{
+    margin-top: 20px;
+    min-width: 200px;
+}
+
+/** MENU AVATAR CSS **/
+nav.main-menu ul li.group-03 .dropdown-menu ul{
+    padding: 0 15px;
+}
+nav.main-menu ul li.group-03 .dropdown-menu ul li{
+    display: inline-flex;
+    margin: 0;
+    padding: 5px 0 0 0;
+    border-bottom: 0;
+}
+nav.main-menu ul li.group-03 .dropdown-menu ul li a{
+    width: 100%;
+}
+nav.main-menu ul li.group-03 .dropdown-menu ul li a i{}
+nav.main-menu ul li.group-03 .dropdown-menu ul li a span{
+    border-width: 0;
+    display: inline-flex;
+    line-height: 20px;
+    vertical-align: text-bottom;
+    font-weight: 400;
+    padding: 0 0 0 5px;
+}
+nav.main-menu ul li.group-03 .dropdown-menu ul li a span:after{
+    display: none !important;
+}
+nav.main-menu ul li.group-03 .dropdown-menu ul li a button{
+    margin: 5px 0;
+    background: #248444;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+nav.main-menu ul li.group-03 .dropdown-menu ul li a button b{
+    display: inline-flex;
+    font-weight: 400;
+    color: white;
+    font-size: 12px;
+    width: 115px;
+    padding-left: 10px;
+}
+/** END MENU AVATAR CSS **/
+
+nav.main-menu ul li.group-03 button {
+    background-color: white;
+    border-width: 0;
+    padding: 0 5px;
+    margin-left: 15px;
+    position: relative;
+    overflow: inherit;
+    display: inline-flex;
+}
+
+nav.main-menu ul li.group-03 button span {
+    position: absolute;
+    top: 3px;
+    right: -5px;
+    height: 16px;
+    width: 16px;
+    padding: 0;
+    border-radius: 8px;
+    background-color: #F33249;
+    display: block;
+    color: #FFFFFF;
+    font-size: 9px;
+    font-weight: 900;
+    line-height: 16px;
+    text-align: center;
+    border-width: 0;
+}
+
+nav.main-menu ul li.group-03 a button span:after{
+    display: none;
+}
+
+nav.main-menu ul li.group-03 a button span[data-number="0"] {
+    opacity: 0;
+}
+
+nav.main-menu ul li.more > button {
+    background-color: white;
+    border-width: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: relative;
+    width: 24px;
+    height: 40px;
+}
+
+nav.main-menu ul li div.box-child {
+    position: absolute;
+    top: 71px;
+    left: 10px;
+    background: white;
+    z-index: 1;
+    display: none;
+    max-width: 535px;
+    min-width: 535px;
+    border: 1px solid #DDDDDD;
+    border-top: 0;
+}
+
+nav.main-menu ul.hasChangeMenu li div.box-child {
+    left: inherit;
+    right: 0;
+}
+
+nav.main-menu ul li:hover {
+    background: white;
+}
+
+nav.main-menu ul li:hover span {
+    border-color: #DDDDDD;
+}
+
+nav.main-menu ul li:hover a:before,
+nav.main-menu ul li:hover a span:after {
+    display: block;
+}
+
+nav.main-menu ul li:hover div.box-child {
+    display: block;
+}
+
+nav.main-menu ul li:hover div.box-child div.container-box{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav.main-menu ul li div.box-child div.submit-ask {
+    padding: 15px 15px 0 15px;
+}
+
+nav.main-menu ul li div.box-child ul {
+    line-height: 18px;
+    padding: 20px 15px 0 15px;
+    overflow: hidden;
+    float: left;
+    max-width: 265px;
+}
+
+nav.main-menu ul li div.box-child.item-4 ul {
+    line-height: 18px;
+    padding: 20px 15px 0 15px;
+    overflow: hidden;
+    float: left;
+    max-width: 175px;
+}
+
+nav.main-menu ul li div.box-child ul li {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+}
+
+nav.main-menu ul li div.box-child ul li a {
+}
+
+nav.main-menu ul li div.box-child ul li a h2 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #248444;
+}
+
+nav.main-menu ul li div.box-child ul li a span {
+    line-height: inherit;
+    display: block;
+    padding: 0;
+    font-weight: 400;
+    color: #989898;
+    font-size: 14px;
+    margin-bottom: 5px;
+    border-color: transparent !important;
+}
+
+nav.main-menu ul li div.box-child ul li a:before,
+nav.main-menu ul li div.box-child ul li a span:after {
+    display: none;
+}
+
+/** MENU MAIN MINIMUN CSS ARROW DOWN **/
+ul.menu-on-click.show {
+    padding: 0;
+    margin-top: 24px;
+}
+
+nav.main-menu ul ul.menu-on-click.show > li {
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    width: 100% !important;
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+nav.main-menu ul ul.menu-on-click.show > li:first-child{
+    padding-top: 10px;
+}
+
+nav.main-menu ul ul.menu-on-click.show > li:last-child{
+    padding-bottom: 10px;
+}
+
+nav.main-menu ul ul.menu-on-click.show li.group-01,
+nav.main-menu ul ul.menu-on-click.show li.group-02,
+nav.main-menu ul ul.menu-on-click.show li.group-03 {
+    margin: 0;
+}
+
+nav.main-menu ul ul.menu-on-click.show li.group-01,
+nav.main-menu ul ul.menu-on-click.show li.group-02 {
+    width: inherit;
+    display: inline-block;
+}
+
+nav.main-menu ul ul.menu-on-click.show li div.box-child {
+    position: relative;
+    display: none;
+    top: 0;
+    border-width: 0;
+    min-width: 300px
+}
+
+nav.main-menu ul ul.menu-on-click.show li div.box-child div.submit-ask {
+    padding: 0;
+}
+
+nav.main-menu ul ul.menu-on-click.show li div.box-child div.submit-ask button {
+    display: block;
+}
+
+nav.main-menu ul ul.menu-on-click.show li a:before,
+nav.main-menu ul ul.menu-on-click.show li a span:after {
+    display: none !important;
+}
+
+nav.main-menu ul ul.menu-on-click.show li a span {
+    white-space: nowrap;
+    line-height: 40px;
+    border-width: 0;
+    padding: 0;
+}
+
+nav.main-menu ul ul.menu-on-click.show li div.box-child ul {
+    max-width: 100%;
+    padding: 10px 0 0 0;
+}
+
+nav.main-menu ul ul.menu-on-click.show li div.box-child ul li a h2 {
+    margin-bottom: 10px;
+}
+
+nav.main-menu ul ul.menu-on-click.show li div.box-child ul li a span {
+    line-height: 18px;
+}
+/** END MENU MAIN MINIMUN CSS ARROW DOWN **/
+
+/** END NAV MENU MAIN */
+
+/** CSS NOTIFY RING */
+
+div.box-notify {
+    visibility: visible;
+}
+
+div.box-notify.visibility {
+    visibility: hidden;
+}
+
+div.box-notify div.fixed {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+}
+
+div.box-notify div.full {
+    z-index: 1001;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+div.box-notify div.fixed div.item1 {
+    width: 300px;
+    z-index: 1004;
+    background-color: #1B1B1B;
+    position: absolute;
+    top: 0;
+    left: -300px;
+    height: 100%;
+}
+
+div.box-notify div.fixed div.item2 {
+    width: 320px;
+    z-index: 1003;
+    background: white;
+    position: absolute;
+    top: 0;
+    left: -320px;
+    height: 100%;
+}
+
+div.box-notify div.fixed div.item3 {
+    width: 420px;
+    z-index: 1002;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    left: -420px;
+    height: 100%;
+}
+
+div.box-notify div.fixed button.offNotify {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1005;
+    opacity: 0;
+}
+
+div.container-logo {
+    padding: 20px 30px;
+}
+
+div.container-logo div.kt-logo {
+    margin-left: 0;
+}
+
+div.container-logo div.kt-logo a {
+    color: white;
+}
+
+div.title-bell {
+    padding: 20px 30px;
+    color: white;
+    position: relative;
+}
+
+div.title-bell:before {
+    position: absolute;
+    width: 240px;
+    height: 0.6px;
+    left: 0;
+    bottom: -1px;
+    content: '';
+    background-color: #424242;
+    margin: 0 30px;
+}
+
+div.title-bell i {
+    margin: 0 7px;
+}
+
+div.title-bell span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    vertical-align: top;
+    margin-left: 10px;
+}
+
+nav.notify-menu {
+}
+
+nav.notify-menu ul {
+}
+
+nav.notify-menu ul li {
+    height: 60px;
+    background-color: transparent;
+    padding: 0 30px;
+    position: relative;
+    border-bottom: 1px solid #1b1b1b;
+}
+
+nav.notify-menu ul li:before {
+    position: absolute;
+    width: 240px;
+    height: 1px;
+    left: 0;
+    bottom: -1px;
+    content: '';
+    background-color: #424242;
+    margin: 0 30px;
+}
+
+nav.notify-menu ul li a {
+    display: block;
+}
+
+nav.notify-menu ul li a button {
+    width: 100%;
+    line-height: 60px;
+    border-width: 0;
+    border-radius: 0;
+    background-color: transparent;
+    padding: 0;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+nav.notify-menu ul li a button i {
+    color: #FFFFFF;
+    height: 32px;
+    width: 32px;
+    background-color: #248444;
+    border-radius: 120px;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+nav.notify-menu ul li a button span {
+    display: inline-block;
+    vertical-align: middle;
+    color: #d0d0d0a3;
+    font-weight: 400;
+}
+
+nav.notify-menu ul li a button b {
+    height: 16px;
+    width: 20px;
+    border-radius: 8px;
+    background-color: #F33249;
+    color: #FFFFFF;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin-top: 22px;
+}
+
+nav.notify-menu ul li a button b[data-number="0"] {
+    opacity: 0;
+}
+
+nav.notify-menu ul li:last-child,
+nav.notify-menu ul li:last-child:before {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+nav.notify-menu ul li.active:before {
+    background-color: #1b1b1b;
+}
+
+nav.notify-menu ul li.active:after {
+    position: absolute;
+    width: 240px;
+    height: 1px;
+    left: 0;
+    top: -1px;
+    content: '';
+    background-color: #1b1b1b;
+    margin: 0 30px;
+    z-index: 2;
+}
+
+nav.notify-menu ul li.active,
+nav.notify-menu ul li:hover {
+    background-color: #248444;
+    border-bottom: 1px solid #1b1b1b;
+}
+
+nav.notify-menu ul li.active a button i,
+nav.notify-menu ul li:hover a button i {
+    background-color: #156630;
+}
+
+nav.notify-menu ul li.active a button span,
+nav.notify-menu ul li:hover a button span {
+    color: white;
+}
+
+nav.notify-menu ul ul {
+    margin-left: 12px;
+    margin-right: -8px;
+}
+
+nav.notify-menu ul ul li {
+    height: 30px;
+    line-height: 30px;
+    padding-left: 13px;
+    margin-top: 6px;
+    border-width: 0;
+}
+
+nav.notify-menu ul ul li:before {
+    display: none;
+}
+
+nav.notify-menu ul ul li a {
+    color: #d0d0d0a3;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+nav.notify-menu ul ul li a i {
+    opacity: 0.7;
+}
+
+nav.notify-menu ul ul li a span {
+    display: inline-block;
+    white-space: nowrap;
+    width: 135px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: bottom;
+    margin-left: 3px;
+}
+
+nav.notify-menu ul ul li a b {
+    float: right;
+    height: 16px;
+    width: 20px;
+    border-radius: 8px;
+    background-color: #F33249;
+    color: #FFFFFF;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: -22px;
+}
+
+nav.notify-menu ul ul li:hover {
+    background-color: #2d2d2d;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+nav.notify-menu ul ul li:hover:before,
+nav.notify-menu ul ul li:hover:after {
+    opacity: 0;
+}
+
+nav.notify-menu ul ul li:hover a {
+    color: white;
+}
+
+nav.notify-menu ul ul li:hover a i {
+    opacity: 1;
+}
+
+div.box-notify div.head {
+    padding: 24px 20px 24px 20px;
+    background-color: #EEF7F1;
+    border-bottom: 1px solid rgba(36, 132, 68, 0.28);
+}
+
+div.box-notify div.head i {
+    color: #FFFFFF;
+    height: 32px;
+    width: 32px;
+    background-color: #248444;
+    border-radius: 120px;
+    line-height: 32px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+div.box-notify div.head b {
+    display: inline-block;
+    vertical-align: middle;
+    color: #248444;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+div.box-notify div.head button {
+    background-color: transparent !important;
+    border-width: 0;
+    color: #474747;
+    padding-right: 0;
+}
+
+div.box-notify div.head button:after {
+    display: none;
+}
+
+div.box-notify div.title {
+    padding: 11px 20px 11px 18px;
+    background-color: #F1F1F1;
+    position: relative;
+}
+
+div.box-notify div.title i {
+    font-size: 14px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+div.box-notify div.title b {
+    color: #1b1b1b;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+div.box-notify div.title span {
+    height: 16px;
+    min-width: 18px;
+    border-radius: 8px;
+    background-color: #F33249;
+    color: white;
+    display: inline-block;
+    float: right;
+    text-align: center;
+    font-size: 9px;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+div.box-notify div.notify-container {
+    padding: 10px 20px 0 20px;
+}
+
+div.box-notify div.notify-container div.item-box {
+    padding: 10px 0 7px 0;
+    border-bottom: 1px solid #e2e2e2;
+    cursor: pointer;
+}
+
+div.box-notify div.notify-container div.item-box:last-child {
+    border-bottom: 1px solid transparent;
+}
+
+div.box-notify div.notify-container div.item-box div.avatar {
+    height: 32px;
+    width: 32px;
+    opacity: 0.9;
+    display: inline-block;
+    border-radius: 120px;
+    overflow: hidden;
+    float: left;
+}
+
+div.box-notify div.notify-container div.item-box div.avatar img {
+}
+
+div.box-notify div.notify-container div.item-box div.info {
+    margin-left: 47px;
+}
+
+div.box-notify div.notify-container div.item-box div.info div.one {
+    height: 20px;
+}
+
+div.box-notify div.notify-container div.item-box div.info div.one b {
+    color: #1B1B1B;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    display: inline-block;
+}
+
+div.box-notify div.notify-container div.item-box div.info div.one b.time {
+    opacity: 0.5;
+    color: #1B1B1B;
+    font-weight: 400;
+}
+
+div.box-notify div.notify-container div.item-box div.info div.two {
+    color: #000000;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-bottom: 4px;
+}
+
+div.box-notify div.notify-container div.item-box div.info div.two b {
+    font-weight: 700;
+}
+
+div.box-notify div.notify-container div.item-box div.info div.three {
+    position: relative;
+}
+
+div.box-notify div.notify-container div.item-box div.info div.three i {
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    color: #248444;
+}
+
+div.box-notify div.notify-container div.item-box div.info div.four {
+    color: #1b1b1b96;
+    font-size: 12px;
+    line-height: 22px;
+}
+
+div.box-notify div.notify-container div.item-box div.info div.five {
+    font-weight: 500;
+    color: #000000;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 4px;
+}
+
+div.box-notify div.notify-container div.not-database {
+    text-align: center;
+    padding: 43px 0;
+}
+
+div.box-notify div.notify-container div.not-database i {
+    margin-bottom: 26px;
+}
+
+div.box-notify div.notify-container div.not-database b {
+    color: #9B9B9B;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    display: block;
+}
+
+/** END NOTIFY */
+
+/** FOOTER **/
+div.kt-footer {
+    padding: 30px;
+}
+
+div.kt-footer div.logo-footer {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+}
+
+div.kt-footer div.logo-footer img {
+    width: 100%;
+    border-radius: 5px;
+    border: 9px solid #238646;
+}
+
+div.kt-footer div.company-footer {
+    padding-left: 60px;
+}
+
+div.kt-footer div.company-footer h5 {
+    margin: 5px 0 10px 0;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+div.kt-footer div.company-footer h5 b {
+    font-weight: 600;
+}
+
+div.kt-footer div.company-footer ul {
+    margin: 0;
+}
+
+div.kt-footer div.company-footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+div.kt-footer div.company-footer ul li a {
+    font-size: 12px;
+}
+
+div.kt-footer div.social {
+}
+
+div.kt-footer div.social button {
+    border-width: 0;
+    border-radius: 220px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    padding: 0;
+}
+
+div.kt-footer div.social button.sface {
+    background-color: #4267b2;
+}
+
+div.kt-footer div.social button.sgoogle {
+    background-color: #f50f25;
+}
+
+div.kt-footer div.social button.stwitter {
+    background-color: #08a0e9;
+}
+
+div.kt-footer div.social button.srss {
+    background-color: orange;
+}
+
+div.kt-footer div.social button i {
+    color: white;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+/** END FOOTER **/

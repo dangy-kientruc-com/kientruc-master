@@ -1,0 +1,440 @@
+div.create-add {
+    padding: 35px 40px;
+}
+
+div.create-add div.title-modal {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+button.btn-form {
+    border-radius: 17.5px;
+    padding: 6px 15px;
+    text-align: center;
+    color: #474747;
+    font-size: 14px;
+    line-height: 22px;
+    border-width: 0;
+}
+
+button.btn-form.white {
+    background-color: white;
+}
+
+button.btn-form.grey {
+    background-color: #F3F3F3;
+}
+
+div.create-add label {
+    color: #1B1B1B;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+div.create-add label span {
+    height: 14px;
+    width: 14px;
+    border: 1px solid #D1D1D1;
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+div.create-add label span.verify-ok {
+    border-color: green;
+    background-color: green;
+}
+
+div.create-add div.box-step {
+    border-radius: 4px;
+    background-color: #EEF7F1;
+    border-width: 1px;
+    margin-bottom: 20px;
+}
+
+div.create-add div.box-step div.step {
+    padding: 12px 10px;
+    position: relative;
+}
+
+div.create-add div.box-step div.step span {
+    display: inline-flex;
+    box-sizing: border-box;
+    height: 28px;
+    width: 28px;
+    border: 2px solid #AFCCB9;
+    background-color: #FFFFFF;
+    line-height: 24px;
+    border-radius: 120px;
+    color: #1B1B1B;
+    font-size: 14px;
+    font-weight: 600;
+    opacity: 0.5;
+    vertical-align: middle;
+    justify-content: center;
+}
+
+div.create-add div.box-step div.step b {
+    display: inline-block;
+    color: #1B1B1B;
+    opacity: 0.5;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+div.create-add div.box-step div.step i {
+    position: absolute;
+    top: 18px;
+    right: 0;
+    color: #AFCCB9;
+    font-size: 18px;
+    line-height: 6px;
+}
+
+div.create-add div.box-step div.step.active span,
+div.create-add div.box-step div.step.active b,
+div.create-add div.box-step div.step.active i {
+    opacity: 1;
+}
+
+div.create-add div.box-step div.step.pass span {
+    background-color: #248444;
+    border-color: #248444;
+    opacity: 1;
+}
+
+div.create-add div.grid-two-300 {
+    display: grid;
+    grid-template-columns: 300px auto;
+    margin: 0 -15px;
+    grid-gap: 30px;
+    padding: 15px;
+}
+
+div.create-add div.grid-two-200 {
+    display: grid;
+    grid-template-columns: 200px auto;
+    margin: 0 -15px;
+    grid-gap: 30px;
+    padding: 15px;
+}
+
+div.create-add div.grid-3-fix-40 {
+    display: grid;
+    grid-template-columns: 180px auto 45px;
+    margin: 0 -15px;
+    grid-gap: 10px;
+    padding: 5px 15px;
+}
+
+div.grid-3-fix-40 div.btnCus {
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    border: 1px solid #D1D1D1;
+    border-radius: 3px;
+    background-color: #FAFAFA;
+    padding-left: 12px;
+    padding-right: 30px;
+    position: relative;
+}
+
+div.grid-3-fix-40 div.position-name b {
+    font-weight: 500;
+    color: #9B9B9B;
+}
+
+div.grid-3-fix-40 div.position-name i {
+    position: absolute;
+    top: 21px;
+    right: 11px;
+}
+
+div.grid-3-fix-40 div.avatar span {
+    display: inline-flex;
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+    border-radius: 120px;
+    background-size: 100%;
+    margin-right: 5px;
+}
+
+div.grid-3-fix-40 div.avatar b {
+    font-weight: 500;
+    color: #9B9B9B;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+div.grid-3-fix-40 div.avatar i {
+    position: absolute;
+    top: 18px;
+    right: 11px;
+    opacity: .5;
+}
+
+.txt-note {
+    color: #474747;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+div.create-add div.scroll-470px {
+    height: 470px;
+}
+
+button#uploadButton {
+    display: block;
+    width: 100%;
+    border: 1px dashed #D1D1D1;
+    height: 225px;
+    background-color: #F9F9F9;
+}
+
+button#uploadButton i {
+    margin-bottom: 20px;
+    opacity: 0.3
+}
+
+button#uploadButton p {
+    color: #474747;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+button#uploadButton p span {
+    font-weight: 600;
+}
+
+#box-hinh-avatar2 {
+    position: relative;
+}
+
+#box-hinh-avatar2 button.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 4;
+}
+
+h2.category-part {
+    color: #000000;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0;
+}
+
+div.box-item-image-temp {
+}
+
+div.grid-image-temp {
+    display: grid;
+    grid-template-columns: 30px 200px auto; /*Make the grid smaller than the container*/
+    grid-gap: 0;
+}
+
+div.grid-image-temp div.item-01 {
+    display: inline-flex;
+    height: 100%;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+div.grid-image-temp div.item-02 {
+    display: inline-flex;
+    height: 100%;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+div.grid-image-temp div.item-02 img {
+    border-radius: 3px;
+}
+
+div.grid-image-temp div.item-03 {
+    padding: 10px 10px 0 10px;
+}
+
+div.grid-image-temp div.item-03 button {
+    opacity: 0;
+}
+
+.sortable li:focus div.grid-image-temp div.item-03 button,
+.sortable li:hover div.grid-image-temp div.item-03 button {
+    opacity: 1;
+}
+
+div.process-done {
+}
+
+div.process-done div.note-success {
+    padding: 0 40px;
+}
+
+div.process-done div.note-success div.img {
+    margin-top: 80px;
+    margin-bottom: 65px;
+}
+
+div.process-done div.note-success div.img img {
+    height: 150px;
+}
+
+div.process-done div.note-success h1 {
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 20px;
+}
+
+div.process-done div.note-success p {
+    color: #1B1B1B;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 25px;
+}
+
+div.process-done div.note-success button {
+    border-radius: 25px;
+    background-color: #248444;
+    line-height: 48px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 30px;
+}
+
+div.process-done div.note-success a {
+    color: #248444;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    display: block;
+    margin-top: 30px;
+}
+
+/**
+phan edit lai file input
+ */
+.file-preview {
+    border-width: 0;
+    padding: 0;
+}
+
+.file-preview .file-drop-zone {
+    margin: 0;
+    border-width: 1px !important;
+    border-color: transparent !important;
+    padding: 0;
+}
+
+.file-error-message {
+    display: none !important;
+}
+
+.file-caption-main {
+    display: none;
+}
+
+.file-drop-zone .file-drop-zone-title {
+    opacity: 0;
+}
+
+.file-drop-zone .file-preview-thumbnails .file-preview-frame.item-fix-colum {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #EEF7F1;
+    margin-bottom: 5px;
+}
+
+.file-drop-zone .file-preview-thumbnails .file-preview-frame.item-fix-colum .kv-file-content {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 40px;
+    width: 40px;
+    z-index: 1;
+}
+
+.file-drop-zone .file-preview-thumbnails .file-preview-frame.item-fix-colum .file-footer-caption {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    height: 40px;
+    width: 100%;
+    text-align: left;
+    padding-left: 60px;
+    z-index: 2;
+}
+
+.file-drop-zone .file-preview-thumbnails .file-preview-frame.item-fix-colum .file-footer-caption .file-caption-info {
+    color: #1B1B1B;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+.file-drop-zone .file-preview-thumbnails .file-preview-frame.item-fix-colum .file-footer-caption .file-size-info {
+    color: #474747;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.file-drop-zone .file-preview-thumbnails .file-preview-frame.item-fix-colum .file-upload-indicator {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 3;
+    opacity: 0;
+}
+
+.file-drop-zone .file-preview-thumbnails .file-preview-frame.item-fix-colum .file-actions {
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+    z-index: 4;
+}
+
+.file-drop-zone .file-preview-thumbnails .file-preview-frame.item-fix-colum .file-actions .file-footer-buttons button {
+    border-width: 0;
+    background-color: transparent !important;
+}
+
+.file-drop-zone .file-preview-thumbnails .file-preview-frame.item-fix-colum .item-progress .progress {
+    height: 60px;
+}
+
+.file-drop-zone .file-preview-thumbnails .file-preview-frame.item-fix-colum .item-progress .progress .bg-success {
+    background-color: #DBF0E2 !important;
+    color: #f7f7f7;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: right;
+    padding-right: 50px;
+}
+
+/**
+end file input
+ */
+
+
+

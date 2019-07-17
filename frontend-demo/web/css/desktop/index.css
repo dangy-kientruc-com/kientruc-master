@@ -1,0 +1,837 @@
+/**
+** phan left
+** phan kien truc su tieu bieu
+** responsive on desktop
+**/
+
+/** BACKGROUND HEAD */
+div.kt-head {
+    background-image: linear-gradient(to right, #e6f1f9 480px, white 18%);
+}
+
+/** END BACKGROUND HEAD */
+div.kt-wrap {
+    min-width: 650px;
+}
+
+div.kt-grid.grid-2 {
+    grid-template-columns: 480px minmax(320px, auto);
+}
+
+/** LEFT */
+div.index-left-box {
+    padding: 0 38px 0 50px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 71px;
+    background-size: 480px auto;
+    background-repeat: no-repeat;
+    min-height: 720px;
+    background-position: 0 190px;
+    z-index: 1;
+}
+
+div.index-left-box h1 {
+    color: #1B1B1B;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 36px;
+    margin: 0 0 12px 0;
+}
+
+div.index-left-box div.index-text {
+    color: #1B1B1B;
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 17px;
+}
+
+div.index-left-box div.index-slogan {
+    margin-bottom: 25px;
+}
+
+div.index-left-box ul {
+}
+
+div.index-left-box ul li {
+    float: left;
+    width: 43%;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+
+div.index-left-box ul li:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    height: 37px;
+    width: 2px;
+    background-color: #248444;
+    z-index: 1;
+}
+
+div.index-left-box ul li b {
+    display: block;
+    color: #248444;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+div.index-left-box ul li span {
+    color: #1B1B1B;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+div.index-left-box button.index-btn-default {
+    height: 55px;
+    width: 210px;
+    border-radius: 3px;
+    background-color: #248444;
+    color: white;
+    font-size: 16px;
+    font-family: 'Barlow', sans-serif;
+}
+
+div.index-left-bg {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 480px;
+    z-index: 0;
+    background-image: url(/images/home-bg.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+/** END LEFT */
+
+/** SLIDE SCROLL **/
+div.index-right-scroll {
+    overflow: hidden;
+}
+
+div.index-right-scroll div.scroll-box {
+    width: 2100px;
+    padding-left: 30px;
+}
+
+div.index-right-scroll div.scroll-box div.item-kts {
+    display: inline-block;
+    border: 1px solid #D1D1D1;
+    border-radius: 30px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+div.index-right-scroll div.scroll-box div.item-kts div.avatar {
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+div.index-right-scroll div.scroll-box div.item-kts div.avatar i {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    color: #7ED321;
+    border: 2px solid white;
+    background: white;
+    border-radius: 250px;
+    font-size: 8px;
+}
+
+div.index-right-scroll div.scroll-box div.item-kts div.avatar div.bg {
+    border-radius: 30px;
+    overflow: hidden;
+    background: red;
+}
+
+div.index-right-scroll div.scroll-box div.item-kts div.avatar div.bg img {
+    height: 50px;
+    width: 50px;
+}
+
+div.index-right-scroll div.scroll-box div.item-kts div.fullname {
+    margin-left: 58px;
+    padding: 9px 5px 5px 0;
+}
+
+div.index-right-scroll div.scroll-box div.item-kts div.fullname b {
+    display: block;
+    width: 120px;
+    color: #248444;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+div.index-right-scroll div.scroll-box div.item-kts div.fullname span {
+    display: inline-block;
+    opacity: 0.5;
+    color: #1B1B1B;
+    font-size: 12px;
+    line-height: 18px;
+    vertical-align: text-bottom;
+}
+
+/** END SLIDE SCROLL **/
+
+/** HEAD CATEGORY CSS **/
+div.index-category ul li.more {
+    margin-left: 10px;
+}
+
+/** END HEAD CATEGORY CSS **/
+
+/** LEFT CSS **/
+/** END LEFT CSS **/
+@media only screen and (max-width: 840px) {
+    div.kt-grid.grid-2 {
+        display: block;
+    }
+
+    div.index-left-box {
+        background-image: url(/images/home-bg.png);
+    }
+
+    div.index-left-bg {
+        display: none;
+    }
+}
+
+/** ITEM PROJECT CSS **/
+@media only screen and (max-width: 669px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-project {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-project div.item {
+        width: 50%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-project div.kt-project-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 670px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-project {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-project div.item {
+        width: 50%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-project div.kt-project-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-project {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-project div.item {
+        width: 100%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-project div.kt-project-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-project {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-project div.item {
+        width: 100%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-project div.kt-project-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1160px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-project {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-project div.item {
+        width: 50%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-project div.kt-project-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-project {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-project div.item {
+        width: 33.333%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-project div.kt-project-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1750px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-project {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-project div.item {
+        width: 25%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-project div.kt-project-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-project {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-project div.item {
+        width: 310px;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-project div.kt-project-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+/** END ITEM PROJECT CSS **/
+
+/** ITEM CATEGORY CSS **/
+@media only screen and (max-width: 669px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-category {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-category div.item {
+        width: 33.333%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-category div.kt-category-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 670px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-category {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-category div.item {
+        width: 33.333%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-category div.kt-category-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-category {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-category div.item {
+        width: 50%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-category div.kt-category-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1220px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-category {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-category div.item {
+        width: 33.333%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-category div.kt-category-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1450px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-category {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-category div.item {
+        width: 25%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-category div.kt-category-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1680px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-category {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-category div.item {
+        width: 20%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-category div.kt-category-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+@media only screen and (min-width: 1910px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-category {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-category div.item {
+        width: 200px;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-category div.kt-category-item {
+        width: 100%;
+        margin: 15px 0;
+    }
+}
+
+/** END ITEM CATEGORY CSS **/
+
+/** ITEM NEWS CSS **/
+@media only screen and (max-width: 669px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-news {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-news div.item {
+        width: 50%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-news div.kt-news-item {
+        width: 100%;
+        margin: 15px 0;
+        max-width: inherit;
+    }
+}
+
+@media only screen and (min-width: 670px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-news {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-news div.item {
+        width: 50%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-news div.kt-news-item {
+        width: 100%;
+        margin: 15px 0;
+        max-width: inherit;
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-news {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-news div.item {
+        width: 100%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-news div.kt-news-item {
+        width: 100%;
+        margin: 15px 0;
+        max-width: inherit;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-news {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-news div.item {
+        width: 100%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-news div.kt-news-item {
+        width: 100%;
+        margin: 15px 0;
+        max-width: inherit;
+    }
+}
+
+@media only screen and (min-width: 1160px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-news {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-news div.item {
+        width: 50%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-news div.kt-news-item {
+        width: 100%;
+        margin: 15px 0;
+        max-width: inherit;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-news {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-news div.item {
+        width: 33.333%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-news div.kt-news-item {
+        width: 100%;
+        margin: 15px 0;
+        max-width: inherit;
+    }
+}
+
+@media only screen and (min-width: 1750px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-news {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-news div.item {
+        width: 25%;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-news div.kt-news-item {
+        width: 100%;
+        margin: 15px 0;
+        max-width: inherit;
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    div.kt-row {
+        padding: 15px;
+    }
+
+    div.grid-masonry-news {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    div.grid-masonry-news div.item {
+        width: 310px;
+        padding: 0 15px;
+
+    }
+
+    div.grid-masonry-news div.kt-news-item {
+        width: 100%;
+        margin: 15px 0;
+        max-width: inherit;
+    }
+}
+
+/** END ITEM NEWS CSS **/
+
+/** CSS BOX SEARCH INDEX **/
+div.bg-search div.box-form div.grid-search-5 {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+div.grid-search-5 div.td.item-01,
+div.grid-search-5 div.td.item-02,
+div.grid-search-5 div.td.item-03 {
+    min-width: 230px;
+}
+
+@media only screen and (max-width: 669px) {
+    div.grid-search-5 div.td.item-01,
+    div.grid-search-5 div.td.item-02,
+    div.grid-search-5 div.td.item-03,
+    div.grid-search-5 div.td.item-04 {
+        min-width: 48%;
+    }
+
+    div.grid-search-5 div.td.item-04 button {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 670px) {
+    div.grid-search-5 div.td.item-01,
+    div.grid-search-5 div.td.item-02,
+    div.grid-search-5 div.td.item-03,
+    div.grid-search-5 div.td.item-04 {
+        min-width: 48%;
+    }
+
+    div.grid-search-5 div.td.item-04 button {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    div.grid-search-5 div.td.item-01,
+    div.grid-search-5 div.td.item-02,
+    div.grid-search-5 div.td.item-03,
+    div.grid-search-5 div.td.item-04 {
+        min-width: 33%;
+    }
+
+    div.grid-search-5 div.td.item-04 button {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    div.grid-search-5 div.td.item-01,
+    div.grid-search-5 div.td.item-02,
+    div.grid-search-5 div.td.item-03,
+    div.grid-search-5 div.td.item-04 {
+        min-width: 100%;
+    }
+
+    div.grid-search-5 div.td.item-04 button {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    div.grid-search-5 div.td.item-01,
+    div.grid-search-5 div.td.item-02,
+    div.grid-search-5 div.td.item-03,
+    div.grid-search-5 div.td.item-04 {
+        min-width: 48%;
+    }
+
+    div.grid-search-5 div.td.item-04 button {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1230px) {
+    div.grid-search-5 div.td.item-01,
+    div.grid-search-5 div.td.item-02,
+    div.grid-search-5 div.td.item-03,
+    div.grid-search-5 div.td.item-04 {
+        min-width: 33%;
+    }
+
+    div.grid-search-5 div.td.item-04 button {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 1430px) {
+    div.grid-search-5 div.td.item-01,
+    div.grid-search-5 div.td.item-02,
+    div.grid-search-5 div.td.item-03{
+        min-width: 25%;
+    }
+
+    div.grid-search-5 div.td.item-04{
+        min-width: inherit;
+    }
+
+    div.grid-search-5 div.td.item-04 button {
+        width: 100%;
+    }
+}
+
+/** END CSS BOX SEARCH INDEX **/

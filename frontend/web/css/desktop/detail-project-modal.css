@@ -1,0 +1,83 @@
+/**
+** phan responsive cho desktop
+ */
+
+
+/** SCREEN BOX MEDIA @ **/
+@media only screen and (max-width: 1180px) {
+    .grid-sort{
+        grid-template-areas:
+                "box01 box01 box02"
+                "box04 box04 box02"
+                "box03 box03 box02";
+    }
+    div.kt-detail-left div.like{
+        min-height: 40px;
+    }
+    div.kt-project-item{
+        display: inline-block;
+        max-width: 280px;
+    }
+    div.grid-sort div.grid-sort-c{
+        border-width: 0;
+    }
+    div.grid-sort-c div.kt-detail-bottom-right{
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 1055px) {
+    div.kt-project-item{
+        display: block;
+        max-width: 280px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .grid-sort{
+        grid-template-areas:
+                "box01 box01 box01"
+                "box04 box04 box02"
+                "box03 box03 box02";
+    }
+
+    div.modal-body div.content-cus-see-project{
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .grid-sort{
+        grid-template-areas:
+                "box01 box01 box01"
+                "box04 box04 box04"
+                "box02 box02 box02"
+                "box03 box03 box03";
+    }
+    div.grid-sort-d div.kt-detail-bottom-left{
+        border-bottom: 1px solid #ccc;
+    }
+    div.kt-detail-right div.kt-user-follow div.right{
+        text-align: right;
+        padding-right: 30px;
+    }
+    div.kt-project-item{
+        display: inline-block;
+        max-width: 280px;
+        margin: 15px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}
+/** END SCREEN BOX MEDIA @ **/

@@ -1,0 +1,753 @@
+body
+{
+	margin: auto !important;
+	font-family: "Roboto" !important;
+}
+.clear
+{
+	clear: both;
+}
+.user-bg-top
+{
+	height: 110px;
+	width: 100%;
+	background-color: #F2F2F2;
+	
+}
+.user-main
+{
+	max-width: 1140px;
+	margin: auto;
+	margin-top: -70px;	
+}
+.user-left
+{
+	width: 165px;
+	border:1px solid #d3d3d3;
+	border-radius: 5px;
+	padding: 22px;
+	background-color: #FFF;
+	float: left;
+}
+.user-img
+{
+	width: 100%;
+}
+.user-img img
+{
+	width: 100%;
+	border-radius: 5px;
+}
+.user-name
+{
+	margin-top: 15px;
+	color: #1B1B1B;	font-family: Roboto;	font-size: 14px;	font-weight: bold;	line-height: 16px;	text-align: center;
+}
+.user-address
+{
+		opacity: 0.5;	color: #1B1B1B;	font-family: Roboto;	font-size: 12px;	line-height: 22px;
+		text-align: center;
+		margin: 5px;
+}
+.user-contact-li
+{
+	float: left;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3F3;
+}
+.user-contact-nc
+{
+	display: none;
+}
+.user-contact-li:nth-child(1)
+{
+	margin-left: 0;
+}
+.user-contact-li i ,.user-contact-li svg
+{
+	font-size: 14px;
+	width: 14px;
+	height: 14px;
+}
+.user-accout
+{
+	margin-top: 20px;
+}
+.user-accout-title
+{
+	color: #2D2D2D;	font-family: Roboto;	font-size: 12px;	font-weight: bold;	line-height: 22px;	text-align: center;	
+}
+.user-accout-choise-li
+{
+	height: 35px;
+	border: 1px solid #d3d3d3;
+	border-radius: 18px;
+	color: #474747;	font-family: Roboto;	font-size: 12px;	font-weight: 500;	line-height: 14px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 5px;
+}
+.user-accout-choise-li i
+{
+	width: 15px;
+	height: 15px;
+	color: #248445;
+	line-height: 35px;
+	margin-right: 10px;
+}
+.user-accout-choise-li svg
+{
+	width: 15px;
+	height: 15px;
+	color: #248445;
+	line-height: 35px;
+	margin-right: 10px;
+}
+.user-right
+{
+	width: calc(100% - 195px);
+	float: right;
+}
+.user-right-menu
+{
+	float: right;
+}
+.user-right-menu-li
+{
+	margin-left: 50px;
+	font-size: 15px;
+	font-weight: 600;
+	float: left;
+	line-height: 70px;
+	position: relative;
+		color: #474747;
+}
+.user-right-menu-li a
+{
+	color: #474747;
+}
+.user-right-menu-li i
+{
+	padding-right: 5px;
+}
+.user-right-menu-li svg
+{
+	width: 15px;
+	padding-right: 5px;
+	height: 17px;
+}
+.user-right-menu-li:hover a
+{
+	color:  #248445;
+	text-decoration: none;
+}
+.user-right-menu-li.active a
+{
+	color: #248445;
+}
+.user-right-menu-li.active:after
+{
+	content: "";
+	position: absolute;
+	border-bottom: 3px solid #248445;
+	width: 100%;
+	top: calc(100% - 2px);
+	left: 0;
+}
+.user-thongke
+{
+	margin-top: 30px;
+}
+.user-thongke-title
+{
+	font-size: 14px;
+
+}
+.user-thongke-list
+{
+	margin-top: 20px;
+}
+.user-thongke-li
+{
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.user-thongke-top
+{
+	height: 40px;
+	background-color: #98d37f;
+}
+.user-thongke-bot
+{
+	position: relative;
+	padding-bottom: 10px;
+}
+.user-thongke-bot-left
+{
+	position: relative;
+}
+.product-top
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background-color: rgba(255,255,255,0.5);
+	display: flex;align-items: center;justify-content: center;
+	margin: auto;
+	box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+.product-cricel
+{
+	width: 20px;
+	height: 20px;
+	border-radius: 100%;
+	background-color: rgba(255,255,255,0.9);
+}
+.product-bor
+{
+	height: 37px;
+	width: 2px;
+	background-color: rgba(255,255,255,0.8);
+	margin: auto;
+	margin-top: -6px;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+.product-tg
+{
+	width: 0;
+	height: 0;
+	border-left: 45px solid transparent;
+	border-right: 45px solid transparent;
+	border-bottom: 20px solid #FFF;
+	margin-bottom: 0px;
+	margin: auto;
+
+}
+.product-bot
+{
+	width: 97px;
+	border-radius: 3px;
+	background-color: #FFF;
+	padding: 3px;
+	box-shadow: 1px 2px 1px rgba(0,0,0,0.3);
+	border: 2px solid rgba(255,255,255,0.8);
+	border-top: none;
+	position: relative;
+}
+.product-tg-white
+{
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 25px solid #FFF;
+	margin-bottom: 0px;
+	margin: auto;
+	position: absolute;
+	left: 0px;
+	top: -25px;
+	z-index: -1;
+}
+.product-bot-img
+{
+	font-size: 13px;
+	display: flex;align-items: center;justify-content: center;
+}
+.product-bot-img img
+{
+	width: 100%;
+}
+.product-buy-now
+{
+	width: 60px;
+	background-color: #248445;
+	margin: auto;
+	text-align: center;
+	height: 22px;
+	line-height: 22px;
+	border-radius: 3px;
+	font-size: 11px;
+	color:rgba(255,255,255,0.8);
+	margin-top: 10px;
+	opacity: 0.9;
+}
+.product
+{
+	margin-left: 80px;
+	margin-top: -35px;
+	width: 100px;
+	float: left;
+
+}
+.user-thongke-bot-mid
+{
+	float: left;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+.user-thongke-bot-mid-id
+{
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-radius: 100%;
+	background-color: #248445; 
+	color: #FFF;
+	font-weight: bold;font-size: 20px;
+}
+.user-thongke-bot-mid-data
+{
+	margin-top: 10px;
+}
+.user-thongke-bot-mid-text
+{
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 500;
+}
+.user-thongke-bot-mid-number
+{
+	font-weight: 900;
+	color: black;
+}
+.w50
+{
+	width: 50%;
+}
+.left
+{
+	float: left;
+}
+.user-thongke-bot-right
+{
+	margin-top: 25px;
+}
+.user-thongke-bot-right-title
+{
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: 500;
+}
+.user-thongke-bot-right-li
+{
+	display: flex;
+	margin-top: 6px;
+}
+.user-thongke-bot-right-id
+{
+	font-weight: 900;
+	color: black;
+	font-size: 15px;
+}
+.user-thongke-bot-right-pro
+{
+	margin:  0 10px;
+	
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 500;
+	color: #FFF;
+	width: 37px;
+	text-align: center;
+	height: 18px;
+	overflow: hidden;
+}
+.user-thongke-bot-right-pro div
+{
+	background-color: #98d37f;
+}
+.user-thongke-bot-right-nam
+{
+	font-size: 14px;
+}
+.user-thongke-bot-right-name a
+{
+	color: #474747;
+	font-weight: 500;
+	font-style: italic;
+	font-size: 14px;
+	
+}
+.user-thongke-bot-right-name a:hover
+{
+	text-decoration: none;
+	color: #a3caaf;
+}
+.pagination-thongke
+{
+	margin-top: 30px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 30px;
+}
+.pagination-li
+{
+	width: 45px;
+	height: 45px;
+	border: 1px solid #d3d3d3;
+	border-radius: 100%;
+	line-height: 45px;
+	text-align: center;
+	margin: 0 3px;
+	color: #474747;
+	font-weight: 500;
+	opacity: 0.8;
+}
+a:hover
+{
+	text-decoration: none !important;
+}
+.pagination-li:hover
+{
+	border: 2px solid #3d925b;
+	color: #3d925b;
+}
+.pagination-li.active
+{
+	background-color: #248444;
+		border: 1px solid #3d925b;
+	color: #FFF;
+	opacity: 1;
+}
+
+@media only screen and (max-width: 375px)
+{
+	body
+	{
+		min-width: 375px;
+		font-family: "Roboto";
+	}
+	.user-bg-top
+	{
+		display: none;
+	}
+	.user-main
+	{
+		margin-top: 0;
+	}
+	.user-left
+	{
+		width: 100%;
+		border: none;
+		background-color: #F2F2F2;
+		padding: 20px;float: none;
+	}
+	.user-img
+	{
+		width: 75px;
+		height: 75px;
+		border: 5px solid #FFF;
+		float: left;
+	}
+	.user-info
+	{
+		float: left;
+		margin-left: 10px;
+	}
+	.user-name
+	{
+		text-align: left;
+	}
+	.user-address
+	{
+		margin-left: 0;
+		text-align: left;
+	}
+	.user-contact
+	{
+
+	}
+	.user-contact-li
+	{
+		background-color: #FFF;
+		width: 30px;
+		height: 30px;
+	}
+	.user-contact-nc
+	{
+		display: block;
+		width: auto;
+		font-size: 12px;
+		border-radius: 18px;
+		padding: 5px 8px;
+	}
+	.user-contact-nc i
+	{
+		margin-right: 5px;
+	}
+	.user-accout
+	{
+		display: none;
+	}
+	.user-right
+	{
+		width: 100%;
+		padding:0 20px;
+		overflow: hidden;
+		margin: 0;
+		float: none;
+	}
+	.user-right-menu-li
+	{
+		padding:0 20px;
+		margin: 0;
+		white-space: nowrap;
+
+	
+	}
+	.owl-item
+	{
+		width: auto !important;
+	}
+	.user-right-menu
+	{
+		width: 150%;
+		float: none;
+	}
+	.user-right-menu-li.active
+	{
+		border-bottom: 3px solid #248445;
+	}
+	.user-right-menu-li.active:after
+	{
+		display: none;
+	}
+	.w50.left
+	{
+		width: 100%;
+	}
+	.user-thongke-bot-left
+	{
+
+	}
+	.product
+	{
+		margin-left: 40px;
+	}
+	.user-thongke-bot-mid
+	{
+		margin-left: 40px;
+	}
+	.user-thongke-bot-right
+	{
+		margin-left: 40px;
+	}
+}
+@media only screen and (max-width: 480px)
+{
+	body
+	{
+		min-width: 320px;
+		font-family: "Roboto";
+	}
+	.user-bg-top
+	{
+		display: none;
+	}
+	.user-main
+	{
+		margin-top: 0;
+	}
+	.user-left
+	{
+		width: 100%;
+		border: none;
+		background-color: #F2F2F2;
+		padding: 20px;float: none;
+	}
+	.user-img
+	{
+		width: 90px;
+		height: 90px;
+		border: 5px solid #FFF;
+		float: left;
+	}
+	.user-info
+	{
+		float: left;
+		margin-left: 10px;
+	}
+	.user-name
+	{
+		text-align: left;
+	}
+	.user-address
+	{
+		margin-left: 0;
+		text-align: left;
+	}
+	.user-contact
+	{
+
+	}
+	.user-contact-li
+	{
+		background-color: #FFF;
+		width: 35px;
+		height: 35px;
+	}
+	.user-contact-nc
+	{
+		display: block;
+		width: auto;
+		font-size: 12px;
+		border-radius: 18px;
+		padding: 0px 10px;
+		line-height: 35px;
+	}
+	.user-contact-nc i
+	{
+		margin-right: 5px;
+	}
+	.user-accout
+	{
+		display: none;
+	}
+	.user-right
+	{
+		width: 100%;
+		padding:0 20px;
+		overflow: hidden;
+		margin: 0;
+		float: none;
+	}
+	.user-right-menu-li
+	{
+		padding:0 20px;
+		margin: 0;
+		white-space: nowrap;
+
+	
+	}
+	.owl-item
+	{
+		width: auto !important;
+	}
+	.user-right-menu
+	{
+		width: 150%;
+		float: none;
+	}
+	.user-right-menu-li.active
+	{
+		border-bottom: 3px solid #248445;
+	}
+	.user-right-menu-li.active:after
+	{
+		display: none;
+	}
+	.user-album-top-choise-li.active:after
+	{
+		display: none;
+	}
+	.w50.left
+	{
+		width: 100%;
+	}
+	.user-thongke-bot-left
+	{
+
+	}
+	.product
+	{
+		margin-left: 40px;
+	}
+	.user-thongke-bot-mid
+	{
+		margin-left: 40px;
+	}
+	.user-thongke-bot-right
+	{
+		margin-left: 40px;
+	}
+}
+@media only screen and (max-width: 768px) and (min-width: 481px)
+{
+
+	.user-main
+	{
+		padding:0 20px;
+	}
+	.user-right-menu
+	{
+		width: 100%;
+	}
+	.user-album-bot-in
+	{
+		width: 100%;
+	}
+	.user-album-bot-li
+	{
+		width: 100%;
+	}
+	.w50.left
+	{
+		width: 100%;
+	}
+	.user-thongke-bot-left
+	{
+
+	}
+	.product
+	{
+		margin-left: 40px;
+	}
+	.user-thongke-bot-mid
+	{
+		margin-left: 40px;
+	}
+	.user-thongke-bot-right
+	{
+		margin-left: 40px;
+	}
+}
+@media only screen and (max-width: 1024px) and (min-width: 769px)
+{
+
+	.user-main
+	{
+		padding:0 20px;
+	}
+	.user-right-menu
+	{
+		width: 100%;
+	}
+	.user-album-bot-in
+	{
+		width: calc(100% + 30px);
+	}
+	.user-album-bot-li
+	{
+		width: calc(50% - 30px);
+	}
+	.w50.left
+	{
+		width: 50%;
+	}
+	.user-thongke-bot-left
+	{
+
+	}
+	.product
+	{
+		margin-left: 20px;
+	}
+	.user-thongke-bot-mid
+	{
+		margin-left: 20px;
+	}
+	.user-thongke-bot-right
+	{
+		margin-left: 0px;
+	}
+}

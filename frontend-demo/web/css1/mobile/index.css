@@ -1,0 +1,108 @@
+div.kt-head.fixed{
+    background-color: #e6f1f9;
+    background-image: unset;
+}
+div.mb-box-head{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+}
+div.mb-box-head div.kt-fr-search{
+    height: 40px;
+}
+
+div.grid-container-2-lr{
+    display: block;
+}
+
+div.kt-index-scroll-right {
+    margin-left: 20px;
+}
+
+div.kt-index-scroll-right div.scroll-box div.item-kts{
+    display: inline-block;
+    border: unset;
+    border-radius: 0;
+    padding: 0;
+    margin-right: 0;
+}
+div.kt-index-scroll-right div.scroll-box div.item-kts div.avatar {
+    display: inline-block;
+    float: unset;
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 240px;
+}
+div.kt-index-scroll-right div.scroll-box div.item-kts div.avatar i{
+    right: 10px;
+}
+div.kt-index-scroll-right div.scroll-box div.item-kts div.fullname {
+    margin-left: 0;
+    padding: 5px 0 0 0;
+    text-align: center;
+}
+div.kt-index-scroll-right div.scroll-box div.item-kts div.fullname b{
+    display: block;
+    width: 52px;
+    color: #248444;
+    font-weight: 500;
+    line-height: 16px;
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+div.kt-index-scroll-right div.scroll-box div.item-kts div.fullname i{
+    display: none;
+}
+div.kt-index-scroll-right div.scroll-box div.item-kts div.fullname span{
+    font-size: 10px;
+}
+
+div.kt-index-page {
+    padding: 0 15px;
+}
+
+.grid-container-3,
+.grid-container-4{
+    display: block;
+    grid-template-columns: unset;
+    grid-gap: 0;
+    margin: 0 auto;
+}
+
+/* masony index */
+.grid-index-01:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.grid-index-01 div.item {
+    max-width: 310px;
+    float: left;
+}
+
+.grid-index-02:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.grid-index-02 div.item {
+    max-width: 185.5px;
+    float: left;
+}
+
+.grid-index-03:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div.grid-index-03 div.item {
+    max-width: 310px;
+    float: left;
+}
+

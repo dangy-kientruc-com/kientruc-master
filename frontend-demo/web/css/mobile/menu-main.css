@@ -1,0 +1,450 @@
+/**
+** phan logo
+** phan file search chung
+** phan menu chinh ben phai
+** phan footer
+ */
+
+/** CSS FIXED BOX MENU **/
+body.overflow {
+    overflow: hidden;
+}
+
+div.box-fixed {
+    position: fixed;
+    background-color: #000000de;
+    height: 100%;
+    width: 100%;
+    z-index: 1024;
+    top: 0;
+    visibility: hidden;
+}
+
+div.box-fixed.active {
+    visibility: visible;
+}
+
+div.head-fixed-search {
+    position: fixed;
+    background-color: white;
+    min-height: 70px;
+    width: 100%;
+    z-index: 1025;
+    top: -70px;
+}
+
+div.head-fixed-search.active {
+    top: 0;
+}
+
+/** BOX SEARCH TOP HEADER **/
+div.kt-search {
+    float: left;
+    position: relative;
+    margin-top: 15px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+div.kt-search .kt-search_input {
+    height: 40px;
+    border: 1px solid #D1D1D1;
+    border-radius: 20px;
+    background-color: #FFFFFF !important;
+    font-size: 12px;
+    width: 100%;
+    padding: 0 30px 0 15px;
+}
+
+div.kt-search .kt-search_button {
+    background: transparent;
+    position: absolute;
+    top: 0;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    border-width: 0;
+    border-radius: 50px;
+    color: #474747;
+    font-size: 13px;
+    right: 25px;
+}
+
+/** END BOX SEARCH TOP HEADER **/
+
+div.head-fixed-menu {
+    position: fixed;
+    background-color: white;
+    height: 100%;
+    width: 235px;
+    z-index: 1026;
+    top: 0;
+    right: -235px;
+}
+
+div.head-fixed-menu.active {
+    right: 0;
+}
+
+div.head-fixed-menu div.fixed-menu-main {
+    padding: 45px 0 20px 0;
+    height: 100%;
+    position: relative;
+    overflow-y: auto;
+}
+
+div.head-fixed-menu div.fixed-menu-main button.btn-close {
+    position: absolute;
+    top: 5px;
+    right: 0;
+    display: inline-flex;
+    width: 44px;
+}
+
+/** CSS MENU MAIN SIGNUP **/
+div.fixed-menu-main div.head-menu-main {
+    height: 100%;
+    position: relative;
+    min-height: 400px;
+}
+
+div.fixed-menu-main div.head-menu-main ul {
+    height: 100%;
+    margin-bottom: 0;
+    position: relative;
+    min-height: 400px;
+}
+
+div.fixed-menu-main div.head-menu-main ul li {
+    margin-bottom: 15px;
+}
+
+div.fixed-menu-main div.head-menu-main ul li a {
+}
+
+div.fixed-menu-main div.head-menu-main ul li > a > i {
+    width: 50px;
+}
+
+div.fixed-menu-main div.head-menu-main ul li a span {
+    display: inline-flex;
+    font-size: 18px;
+    font-weight: 600;
+    vertical-align: text-bottom;
+    line-height: 22px;
+}
+
+div.fixed-menu-main div.head-menu-main div.head-menu-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+div.fixed-menu-main div.head-menu-main div.head-menu-footer button.access {
+    height: 56px;
+    line-height: 34px;
+    display: inline-block;
+    margin: 0 auto;
+    width: 200px;
+    border: 1px solid #248444;
+    border-radius: 40px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #248444;
+}
+
+div.fixed-menu-main div.head-menu-main div.head-menu-footer button.access.hover,
+div.fixed-menu-main div.head-menu-main div.head-menu-footer button.access:hover {
+    background-color: #248444;
+    color: white;
+}
+
+div.fixed-menu-main div.head-menu-main div.head-menu-footer div.kt-footer {
+}
+
+/** END CSS MENU MAIN SIGNUP **/
+
+/** CSS MENU MAIN LOGIN KTS **/
+div.fixed-menu-main div.head-menu-login-kts {
+    height: 100%;
+    padding: 0 20px;
+    position: relative;
+    min-height: 420px;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-avatar {
+    margin-bottom: 20px;
+    min-height: 52px;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-avatar img {
+    width: 52px;
+    height: 52px;
+    border-radius: 240px;
+    float: left;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-avatar div.information {
+    margin-left: 67px;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-avatar div.information p {
+    margin: 0;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-avatar div.information p i {
+    margin-left: -2px;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-avatar div.information p i:first-child {
+    margin-left: 0;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-avatar div.information p span {
+    display: inline-flex;
+    font-size: 12px;
+    vertical-align: text-bottom;
+    line-height: 20px;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-follow {
+    padding: 15px 0 15px 0;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-follow ul {
+    margin: 0;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-follow ul li {
+    width: 50%;
+    float: left;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-follow ul li b {
+    font-size: 20px;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.kts-follow ul li span {
+    display: block;
+    font-size: 11px;
+    color: #b3b3b3;
+}
+
+div.fixed-menu-main div.head-menu-login-kts ul {
+}
+
+div.fixed-menu-main div.head-menu-login-kts ul li {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div.fixed-menu-main div.head-menu-login-kts ul li:last-child {
+    border-bottom-width: 0;
+}
+
+div.fixed-menu-main div.head-menu-login-kts ul li a {
+    display: inline-flex;
+}
+
+div.fixed-menu-main div.head-menu-login-kts ul li a b {
+    display: inline-flex;
+    line-height: 18px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+div.fixed-menu-main div.head-menu-login-kts ul li span {
+    font-size: 10px;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.head-menu-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+div.fixed-menu-main div.head-menu-login-kts div.head-menu-footer div.kt-footer {
+}
+
+/** END CSS MENU MAIN LOGIN KTS **/
+
+/** END CSS FIXED BOX MENU **/
+.padding-box-desktop {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div.kt-grid.grid-2 {
+    grid-template-columns: auto;
+    display: block;
+}
+
+div.kt-head {
+    background-color: #e6f1f9;
+    background-image: unset;
+    padding: 0 5px 0 12px;
+}
+
+div.kt-head.kt-fixed {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+
+div.mb-box-head {
+}
+
+div.mb-box-head div.logo {
+    height: 40px;
+    padding: 8px;
+}
+
+div.mb-box-head div.logo img {
+    height: 100%;
+    border: 3px solid #238646;
+    border-radius: 4px;
+}
+
+div.mb-box-head div.fr-search {
+    padding: 3px;
+}
+
+/** FIXED MENU BOTTOM CSS **/
+div.fixed-menu-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: white;
+    padding: 0 20px;
+    border-top: 1px solid #dcdcdc;
+    height: 51px;
+    box-shadow: 0 0 40px #c3c3c3;
+}
+
+div.fixed-menu-bottom ul {
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.fixed-menu-bottom ul li {
+    width: 20%;
+    max-width: 20%;
+}
+
+div.fixed-menu-bottom ul li a {
+}
+
+div.fixed-menu-bottom ul li a button {
+    height: 50px;
+    border-width: 0;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+}
+
+div.fixed-menu-bottom ul li a button i {
+}
+
+div.fixed-menu-bottom ul li a button span {
+    display: none;
+    font-size: 11px;
+}
+
+div.fixed-menu-bottom ul li a button.active i.grey svg {
+    fill: #238646;
+}
+
+div.fixed-menu-bottom ul li a button.active span {
+    display: block;
+    line-height: 16px;
+    color: #238646;
+}
+
+div.fixed-menu-bottom ul li a button b {
+    display: inline-flex;
+    height: 32px;
+    width: 32px;
+    border-radius: 240px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+/** END FIXED MENU BOTTOM CSS **/
+
+/** CSS FOOTER **/
+footer {
+    padding: 40px 0 55px 0;
+}
+
+div.kt-footer div.company-footer {
+    padding-left: 0;
+}
+
+div.kt-footer div.company-footer ul {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+}
+
+div.kt-footer div.company-footer ul li {
+    display: inline-block;
+    margin: 0 5px 0 5px;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+div.kt-footer div.company-footer h5 {
+    margin: 15px 0 10px 0;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+div.kt-footer div.social {
+}
+
+div.kt-footer div.social button {
+    border-width: 0;
+    border-radius: 220px;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    padding: 0;
+}
+
+div.kt-footer div.social button.sface {
+    background-color: #4267b2;
+}
+
+div.kt-footer div.social button.sgoogle {
+    background-color: #f50f25;
+}
+
+div.kt-footer div.social button.stwitter {
+    background-color: #08a0e9;
+}
+
+div.kt-footer div.social button.srss {
+    background-color: orange;
+}
+
+div.kt-footer div.social button i {
+    color: white;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+/** END CSS FOOTER **/

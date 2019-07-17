@@ -1,0 +1,855 @@
+body
+{
+	font-family: Roboto !important;
+}
+/*bo loc*/
+.type-none
+{
+	display: none;
+}
+a:hover
+{
+	text-decoration: none !important;
+}
+.clear
+{
+	clear: both;
+}
+.profileviewer
+{
+	
+	margin: auto;
+}
+.profileviewer-top
+{
+	height: 110px;
+	width: 100%;
+	background-color: #F2F2F2;
+}
+.profileviewer-bot
+{
+	width: 1380px;
+	margin: auto;
+	margin-top: -70px;
+}
+.profileviewer-left
+{
+	width: 320px;
+	border: 1px solid rgba(0,0,0,0.15);
+	border-radius: 5px;
+	position: relative;
+	padding: 20px;
+	
+	background-color: #FFF;
+}
+.profileviewer-content-left
+{
+	width: 320px;
+		float: left;
+}
+.profileviewer-pro
+{
+	position: absolute;
+	top: -6px;
+	right: 6px;
+}
+.profileviewer-left-info
+{
+	padding-bottom: 20px;
+		border-bottom:  1px solid rgba(0,0,0,0.15);
+}
+.profileviewer-left-info-img
+{
+	margin: 4px 10px;
+}
+.profileviewer-left-info-img img
+{
+	width: 90px;
+	height: 90px;
+	border-radius: 100%;
+}
+
+.profileviewer-left-info-top
+{
+	display: flex;
+	align-items: center;
+}
+.profileviewer-left-info-right
+{
+	margin-left: 10px; 
+}
+.profileviewer-left-info-title
+{
+	color: #474747;	font-family: Roboto;	font-size: 12px;	line-height: 14px;
+}
+.profileviewer-left-info-name
+{
+	color: #1B1B1B;	font-family: Roboto;	font-size: 14px;	font-weight: bold;	line-height: 16px;
+	margin-top: 3px;
+}
+.profileviewer-left-info-rating
+{
+	font-size: 10px;
+	color: orange;
+	margin-top: 5px;
+}
+.profileviewer-left-info-rating .a
+{
+	color: #C4C4C4;
+}
+.profileviewer-left-info-address 
+{
+	opacity: 0.5;	color: #1B1B1B;	font-family: Roboto;	font-size: 12px;	line-height: 22px;
+}
+.profileviewer-left-info-mid
+{
+	display: flex;align-items: center;
+	margin-top: 15px;
+}
+.profileviewer-left-info-care
+{
+	height: 35px;
+	border-radius: 18px;
+	background-color: #248445;
+	color: #FFFFFF;	font-family: Roboto;	font-size: 12px;	font-weight: 500;	line-height: 14px;
+	width: 110px;
+	display: flex;align-items: center;justify-content: center;
+}
+.profileviewer-left-info-care i 
+{
+	padding-right: 10px;
+}
+.profileviewer-left-info-contact
+{
+	margin-left: 10px;
+}
+.profileviewer-left-info-contact-li
+{
+	float: left;
+	height: 35px;
+	width: 35px;
+	border-radius: 100%;
+	margin-left: 5px;
+	display: flex;justify-content: center;align-items: center;
+	background-color: #F3F3F3;
+}
+.profileviewer-left-info-contact-li i
+{
+	font-size: 14px;
+}
+.profileviewer-left-info-contact-li svg
+{
+	width: 14px;
+}
+.profileviewer-left-info-bot
+{
+	margin-top: 20px;
+	border-radius: 5px;
+	background-color: #EEF7F1;
+	padding: 10px;
+	display: flex;align-items: center;
+
+}
+.profileviewer-left-info-bot-li
+{
+	margin: 5px 0;
+	margin-right: 20px;
+}
+.profileviewer-left-info-bot-li-number
+{
+	color: #1B1B1B;	font-family: Roboto;	font-size: 14px;	font-weight: bold;	line-height: 16px;
+}
+.profileviewer-left-info-bot-li-text
+{
+		opacity: 0.8;	color: #474747;	font-family: Roboto;	font-size: 12px;	line-height: 14px;
+		margin-top: 4px;
+}
+.profileviewer-left-data
+{
+	margin-top: 20px;
+
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	overflow: hidden;
+}
+.profileviewer-left-data-top
+{
+	
+}
+.profileviewer-left-data-title
+{
+	color: #2D2D2D;	font-family: Roboto;	font-size: 16px;	font-weight: bold;	line-height: 22px;
+	float: left;
+}
+.profileviewer-left-data-dots
+{
+	float: right;
+	line-height: 22px;
+}
+.profileviewer-left-data-dots-li
+{
+	width: 7px;
+	height: 7px;
+	border-radius: 100%;
+	background-color: #D8D8D8;
+	float: left;
+	margin-left: 6px;
+	display: flex;
+	justify-content: flex-end;
+	line-height: 22px;
+
+}
+.profileviewer-left-data-dots-li.active
+{
+		background-color: #248445;
+}
+.profileviewer-left-data-bot
+{
+
+	width: 320px !important;
+
+}
+.profileviewer-left-data-bot-li
+{
+	width: 100px !important;
+	float: left;
+	margin-top: 13px;
+}
+.profileviewer-left-data-text
+{
+	color: #1B1B1B;	font-family: Roboto;	font-size: 12px;	font-weight: 500;	line-height: 18px;	text-align: center;
+	margin-top: 7px;
+}
+/**
+phan % vong tron
+ */
+.progress-pie-chart {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #E5E5E5;
+    position: relative;
+    margin: 0 auto 0;
+}
+
+.progress-pie-chart.gt-50 {
+    background-color: #81CE97;
+}
+
+.ppc-progress {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    clip: rect(0, 80px, 80px, 40px);
+}
+
+.gt-50 .ppc-progress {
+    clip: rect(0, 40px, 80px, 0);
+}
+
+.ppc-progress .ppc-progress-fill {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 40px);
+    top: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    clip: rect(0, 40px, 80px, 0);
+    background: #81CE97;
+    transform: rotate(60deg);
+    /*animation: all ease-in-out 3s;*/
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.gt-50 .ppc-progress .ppc-progress-fill {
+    clip: rect(0, 80px, 80px, 40px);
+    background: #E5E5E5;
+}
+
+.ppc-percents {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    left: calc(50% - 69.6px / 2);
+    top: calc(50% - 69.6px / 2);
+    width: 69.6px;
+    height: 69.6px;
+    background: #fff;
+    text-align: center;
+    display: table;
+}
+
+.ppc-percents span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #81CE97;
+}
+
+/** phan size 42px **/
+.progress-pie-chart.size-42 {
+    width: 42px;
+    height: 42px;
+}
+
+.size-42 .ppc-progress {
+    left: calc(50% - 21px);
+    top: calc(50% - 21px);
+    width: 42px;
+    height: 42px;
+    clip: rect(0, 42px, 42px, 21px);
+}
+
+.size-42.gt-50 .ppc-progress {
+    clip: rect(0, 21px, 42px, 0);
+}
+
+.size-42 .ppc-progress .ppc-progress-fill {
+    left: calc(50% - 21px);
+    top: calc(50% - 21px);
+    width: 42px;
+    height: 42px;
+    clip: rect(0, 21px, 42px, 0);
+}
+
+.size-42.gt-50 .ppc-progress .ppc-progress-fill {
+    clip: rect(0, 42px, 42px, 21px);
+    background: #E5E5E5;
+}
+
+.size-42 .ppc-percents {
+    left: 2px;
+    top: 2px;
+    width: 38px;
+    height: 38px;
+}
+
+.size-42 .ppc-percents span {
+    color: #474747;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+/** end phan size 42px **/
+
+/** phan khong trung **/
+.pcc-percents-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.progress-pie-chart.mau-xanh {
+    background-color: #3CB765 !important;
+}
+
+.progress-pie-chart.mau-vang {
+    background-color: #FFB03E !important;
+}
+.progress-pie-chart.maufrom75
+{
+	background-color: #248445 !important;
+}
+.progress-pie-chart.maufrom50
+{
+	background-color: #0DB6FF !important;
+}
+.progress-pie-chart.maufrom25 .ppc-progress .ppc-progress-fill {
+   background-color: #AB73DF !important;
+}
+.profileviewer-left-skill
+{
+	margin-top: 20px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	padding-bottom: 15px;
+}
+.profileviewer-left-skill-title
+{
+	color: #2D2D2D;	font-family: Roboto;	font-size: 16px;	font-weight: bold;	line-height: 22px;
+}
+.profileviewer-left-skill-info
+{
+	margin-top: 10px;
+}
+.profileviewer-left-skill-info-li
+{
+	margin-right: 5px;
+	border-radius: 15px;	background-color: #F3F3F3;
+	float: left;
+	padding: 9px 12px;
+	opacity: 0.7;	color: #474747;	font-family: Roboto;	font-size: 12px;	font-weight: 500;	line-height: 14px;
+	margin-bottom: 5px;
+}
+.profileviewer-left-result
+{
+	margin-top: 20px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+	padding-bottom: 15px;
+}
+.profileviewer-left-result-left
+{
+	color: #2D2D2D;	font-family: Roboto;	font-size: 16px;	font-weight: bold;	line-height: 22px;
+	float: left;
+	line-height: 30px;
+}
+.profileviewer-left-result-right
+{
+	float: right;
+}
+.profileviewer-left-result-gt
+{
+		color: #2D2D2D;	font-family: Roboto;	font-size: 12px;	text-align: right;
+		float: left;
+		padding: 8px 12px;
+		background-color: #FFF;
+		border-radius: 18px;
+}
+.profileviewer-left-result-gt.active
+{
+	background-color: #EEF7F1;
+	color: #248445;
+	font-weight: 500;
+}
+.profileviewer-left-result-bot
+{
+	margin-top: 20px;
+	height: 190px;
+	overflow-y: scroll;
+}
+.profileviewer-left-result-bot::-webkit-scrollbar {
+    width: 4px;
+    background-color: #EFEFEF;
+} 
+.profileviewer-left-result-bot::-webkit-scrollbar-thumb {
+    background-color: #C4C4C4;
+    border-radius: 4px;
+}
+.profileviewer-left-result-bot-left
+{
+	float: left;
+	margin-right: 10px;
+	width: 16px;
+}
+.profileviewer-left-result-bot-left svg
+{
+	width: 16px;
+	fill: rgba(0,0,0,0.5);
+	height: 16px
+}
+.profileviewer-left-result-bot-right
+{
+	float: left;
+	width: calc(100% - 30px);
+}
+.profileviewer-left-result-bot-li
+{
+	margin-bottom: 15px;
+}
+.profileviewer-left-result-time
+{
+	color: #474747;	font-family: Roboto;	font-size: 12px;	line-height: 14px;
+}
+.profileviewer-left-result-text
+{
+	margin-top: 5px;
+	color: #1B1B1B;	font-family: Roboto;	font-size: 14px;	font-weight: 500;	line-height: 22px;
+}
+.profileviewer-left-result-bot-left.active svg
+{
+	fill: #248445;
+}
+.profileviewer-left-group
+{
+	margin-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+.profileviewer-left-group-title
+{
+	color: #2D2D2D;	font-family: Roboto;	font-size: 16px;	font-weight: bold;	line-height: 22px;
+}
+.profileviewer-left-group-posion
+{
+	margin-top: 13px;
+}
+.profileviewer-left-group-li
+{
+	width: 32px;
+	height: 32px;
+	float: left;position: relative;
+	margin-right: 5px;
+}
+.profileviewer-left-group-li img
+{
+	width: 100%;
+	border-radius: 100%;
+}
+.profileviewer-left-group-status
+{
+	position: absolute;bottom: 0;
+	right: 0;
+	width: 	12px;
+	height: 12px;
+	
+	border:2px solid #FFF;
+	border-radius: 100%;
+}
+.profileviewer-left-group-status.online
+{
+	background-color: #7ED321;
+}
+.profileviewer-left-group-status.off
+{
+	display: none;
+}
+.profileviewer-left-group-status.busy
+{
+	background-color: red;
+}
+.profileviewer-left-price
+{
+	margin-top: 20px;
+}
+.profileviewer-left-price-bot
+{
+	margin-top: 10px;
+}
+.profileviewer-left-price-bot-li
+{
+	margin-bottom: 10px;
+}
+.profileviewer-left-price-bot-li-left
+{
+	float: left;
+	color: #474747;	font-family: Roboto;	font-size: 14px;	line-height: 22px;
+}
+.profileviewer-left-price-bot-li-right
+{
+	float: right;
+	color: #1B1B1B;	font-family: Roboto;	font-size: 14px;	font-weight: 500;	line-height: 22px;	text-align: right;
+}
+.profileviewer-flag
+{
+	margin-top: 15px;
+}
+.profileviewer-flag-left
+{
+	float: left;
+		opacity: 0.5;	color: #1B1B1B;	font-family: Roboto;	font-size: 12px;	line-height: 22px;
+}
+.profileviewer-flag-right
+{
+	float: right;
+}
+.profileviewer-flag-right-li
+{
+	float: left;
+	width: 18px;
+	height: 18px;
+	margin-left: 5px;
+	border-radius: 100%;
+	overflow:hidden;
+	background-color: rgba(0,0,0,0.5);
+	display: flex;align-items: center;justify-content: center;
+}
+.profileviewer-flag-right-li i 
+{
+	font-size: 12px;
+	color: #FFF;
+}
+.profileviewer-flag-right-li svg
+{
+	width: 12px;
+	height: 12px;
+	fill: #FFF;
+}
+.profileviewer-contant-right
+{
+	width: calc(100% - 360px);
+	float: right;
+}
+.profileviewer-right
+{
+
+margin-bottom: 50px;
+}
+.profileviewer-right-menu
+{
+
+	height: 70px;
+}
+.profileviewer-right-menu-li
+{
+	padding:0  25px;
+	font-size: 15px;
+	font-weight: 600;
+	float: left;
+	line-height: 70px;
+	position: relative;
+		color: #474747;
+}
+.profileviewer-right-menu-li:nth-child(1)
+{
+	padding-left: 0;
+}
+.profileviewer-right-menu-li a
+{
+	color: #474747;
+}
+.profileviewer-right-menu-li i
+{
+	padding-right: 5px;
+}
+.profileviewer-right-menu-li svg
+{
+	width: 15px;
+	padding-right: 5px;
+	height: 17px;
+}
+.profileviewer-right-menu-li:hover a
+{
+	color:  #248445;
+	text-decoration: none;
+}
+.profileviewer-right-menu-li.active a
+{
+	color: #248445;
+}
+.profileviewer-right-menu-li.active:after
+{
+	content: "";
+	position: absolute;
+	border-bottom: 3px solid #248445;
+	width: calc(100% - 40px);
+	top: calc(100% - 2px);
+}
+.profileviewer-right-menu-li:nth-child(1).active:after
+{
+	width: calc(100% - 20px);
+}
+.profileviewer-chart
+{
+	margin-top: 30px;
+}
+.profileviewer-chart-sort
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #474747;
+	font-family: Roboto;
+}
+.profileviewer-chart-sort select
+{
+	height: 30px;
+	padding: 0 12px;
+	border-radius: 3px;
+	font-weight: 400;
+	margin-left: 5px;
+}
+.profileviewer-chart1
+{
+	margin-top: 10px;
+}
+.profileviewer-chart1-top
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #248445;
+	padding-left: 10px;
+	position: relative;
+
+	font-weight: 600;
+}
+.profileviewer-chart1-top:before
+{
+	position: absolute;content: "";
+	width: 8px;
+	height: 8px;
+	background-color: #248445;
+	border-radius: 100%;
+	left: 0;
+		top: 5px;
+}
+.profileviewer-chart-canvas
+{
+	width: 840px;
+	height: 130px;
+	margin-left: -30px;
+}
+.profileviewer-chart-canvas-phone
+{
+	margin-top: 30px;
+}
+.profileviewer-chart2
+{
+	margin-top:150px;
+}
+.profileviewer-chart2-top
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #474747;
+	padding-left: 10px;
+	position: relative;
+
+	font-weight: 600;
+}
+.profileviewer-chart2-top:before
+{
+	position: absolute;content: "";
+	width: 8px;
+	height: 8px;
+	background-color: #474747;
+	border-radius: 100%;
+	left: 0;
+		top: 5px;
+}
+.profileviewer-top5
+{
+	margin-top: 50px;
+}
+.profileviewer-top5-title
+{
+	font-size: 14px;
+	font-weight: 500;
+	color: #248445;
+	padding-left: 10px;
+	position: relative;
+
+	font-weight: 600;
+}
+.profileviewer-top5-title:before
+{
+	position: absolute;content: "";
+	width: 8px;
+	height: 8px;
+	background-color: #248445;
+	border-radius: 100%;
+	left: 0;
+		top: 5px;
+}
+.profileviewer-top5-data tr
+{
+	line-height: 30px;
+	color: black;
+}
+.profileviewer-top5-data .stt
+{
+	font-weight: 900;
+	color: black;
+	padding:0 5px;
+}
+.profileviewer-top5-data .name
+{
+	width: 260px;
+	font-style: italic;
+	font-size: 14px;
+	font-weight: 500;
+}
+.profileviewer-top5-data .name:hover
+{
+	color: #7ED321;
+}
+.profileviewer-top5-data span
+{
+	padding: 1px 8px;
+	background-color: #7ED321;
+	border-radius: 6px;
+	font-size: 14px;
+	color: #FFF;
+	margin: 0 5px;
+}
+.profileviewer-top5-data b
+{
+	color: black;
+}
+.profileviewer-top5-data .number
+{
+	text-align: right;
+	color: black;
+}
+.proviewer-show-2
+{
+	margin-top: 20px;
+	width: 790px;
+}
+.proviewer-show-2-t
+{
+	font-size: 14px;
+	font-style: italic;
+}
+.proviewer-show-2-t span
+{
+	color: #248445;
+	font-weight: 700;
+}
+.proviewer-show-2-b
+{
+	font-size: 14px;
+	font-style: italic;
+}
+.proviewer-show-2-b span
+{
+	color: black;
+	font-weight: bold;
+}
+.proviewer-add
+{
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #d3d3d3;
+	width: 790px;
+	padding-bottom: 20px;
+}
+.proviewer-add-button button
+{
+	border: none;background-color: #248445;
+	padding: 0 20px;
+	color: #FFF;
+	border-radius: 18px;
+	font-size: 13px;
+	height: 35px;
+	outline: 0;
+}
+.proviewer-add-text
+{
+	font-size: 14px;
+	margin-left: 30px;
+	font-style: italic;
+}
+.proviewer-add-text span
+{
+	color: black;
+	font-weight: bold;
+}
+.proviewer-video-title
+{
+	margin-top: 10px;
+	font-size: 13px;
+	font-style: italic;
+}
+.proviewer-video-title span
+{
+	color: black;
+	font-weight: bold;
+}
+.proviewer-video-show
+{
+	margin-top: 20px;
+}
+.proviewer-video-show iframe
+{
+	width: 100%;
+	height: 500px;
+}
+/**
+end phan % vong tron
+ */

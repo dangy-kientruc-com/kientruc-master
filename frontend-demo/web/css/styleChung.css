@@ -1,0 +1,1137 @@
+html, body {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+body.over-hidden{
+    overflow-y: hidden;
+}
+
+* {
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:focus,
+*:focus {
+    outline: none;
+}
+
+a:link,
+a:active,
+a:hover,
+a:visited,
+a:focus {
+    color: #474747;
+    text-decoration: none;
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus,
+.btn.focus, .btn:active.focus, .btn.active.focus,
+input, textarea, select, button {
+    outline: none !important;
+    box-shadow: none !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.no-after:after{
+    display: none !important;
+}
+
+/** DROPDOWN BOOTSTRAP 4 CUSTOMER*/
+
+.dropdown .dropdown-toggle::after,
+.dropdown.show .dropdown-toggle::after {
+    display: none;
+    visibility: hidden;
+}
+
+/** END DROPDOWN BOOTSTRAP 4 CUSTOMER*/
+
+.kt-transition {
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+}
+
+.kt-line {
+    clear: both;
+    width: 100%;
+    height: 1px;
+    position: relative;
+}
+
+.kt-line.kt-grey {
+    background-color: #DDDDDD;
+}
+
+/** CSS ICON */
+.kt-icon {
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0 !important;
+    margin-top: 0;
+}
+
+.kt-icon.middle {
+    vertical-align: middle;
+}
+
+.kt-icon.text-top {
+    vertical-align: text-top;
+}
+
+.bo-tron {
+    background-color: #EEF7F1;
+    border-radius: 100px;
+}
+
+.green svg {
+    fill: #248444;
+}
+
+.grey svg {
+    fill: #474747;
+}
+
+.black svg {
+    fill: #000000;
+}
+
+.white svg {
+    fill: white;
+}
+
+.red svg {
+    fill: #F33249;
+}
+
+.size-5x10 svg {
+    width: 6px;
+    height: 10px;
+}
+
+.size-6x10 svg {
+    width: 6px;
+    height: 10px;
+}
+
+.size-8x10 svg {
+    width: 8px;
+    height: 10px;
+}
+
+.size-8x14 svg {
+    width: 8px;
+    height: 14px;
+}
+
+.size-9x9 svg {
+    width: 9px;
+    height: 9px;
+}
+
+.size-9x10 svg {
+    width: 9px;
+    height: 10px;
+}
+
+.size-10x6 svg {
+    width: 10px;
+    height: 6px;
+}
+
+.size-10x10 svg {
+    width: 10px;
+    height: 10px;
+}
+
+.size-10x12 svg {
+    width: 10px;
+    height: 12px;
+}
+
+.size-11x11 svg {
+    width: 11px;
+    height: 11px;
+}
+
+.size-11x14 svg {
+    width: 11px;
+    height: 14px;
+}
+
+.size-11x24 svg {
+    width: 11px;
+    height: 24px;
+}
+
+.size-12x8 svg {
+    width: 12px;
+    height: 8px;
+}
+
+.size-13x12 svg {
+    width: 13px;
+    height: 12px;
+}
+
+.size-13x13 svg {
+    width: 13px;
+    height: 13px;
+}
+
+.size-13x14 svg {
+    width: 13px;
+    height: 14px;
+}
+
+.size-14x11 svg {
+    width: 14px;
+    height: 11px;
+}
+
+.size-14x12 svg {
+    width: 14px;
+    height: 12px;
+}
+
+.size-14x14 svg {
+    width: 14px;
+    height: 14px;
+}
+
+.size-15x9 svg {
+    width: 15px;
+    height: 9px;
+}
+
+.size-15x11 svg {
+    width: 15px;
+    height: 11px;
+}
+
+.size-15x12 svg {
+    width: 15px;
+    height: 12px;
+}
+
+.size-15x13 svg {
+    width: 15px;
+    height: 13px;
+}
+
+.size-15x14 svg {
+    width: 15px;
+    height: 14px;
+}
+
+.size-15x15 svg {
+    width: 15px;
+    height: 15px;
+}
+
+.size-16x11 svg {
+    width: 16px;
+    height: 11px;
+}
+
+.size-16x13 svg {
+    width: 16px;
+    height: 13px;
+}
+
+.size-16x14 svg {
+    width: 16px;
+    height: 14px;
+}
+
+.size-16x15 svg {
+    width: 16px;
+    height: 15px;
+}
+
+.size-16x16 svg {
+    width: 16px;
+    height: 16px;
+}
+
+.size-17x8 svg {
+    width: 17px;
+    height: 8px;
+}
+
+.size-17x12 svg {
+    width: 17px;
+    height: 12px;
+}
+
+.size-17x14 svg {
+    width: 17px;
+    height: 14px;
+}
+
+.size-17x16 svg {
+    width: 17px;
+    height: 16px;
+}
+
+.size-18x20 svg {
+    width: 18px;
+    height: 20px;
+}
+
+.size-19x16 svg {
+    width: 19px;
+    height: 16px;
+}
+
+.size-20x14 svg {
+    width: 20px;
+    height: 14px;
+}
+
+.size-20x34 svg {
+    width: 20px;
+    height: 34px;
+}
+
+.size-21x17 svg {
+    width: 21px;
+    height: 17px;
+}
+
+.size-22x30 svg {
+    width: 22px;
+    height: 30px;
+}
+
+.size-24x14 svg {
+    width: 24px;
+    height: 14px;
+}
+
+.size-24x24 svg {
+    width: 24px;
+    height: 24px;
+}
+
+.size-30x32 svg {
+    width: 30px;
+    height: 32px;
+}
+
+.size-36x36 svg {
+    width: 36px;
+    height: 36px;
+}
+
+.size-64x64 svg {
+    width: 64px;
+    height: 64px;
+}
+
+/** END CSS ICON */
+
+/** ARROW BOX UP **/
+.dropdown-menu{
+    margin-top: 10px;
+}
+.dropdown-menu:after{
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 10%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    z-index: 1;
+}
+.dropdown-menu:before{
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 10%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+    z-index: 2;
+}
+.dropdown-menu.dropdown-menu-right:after{
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 90%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+    z-index: 1;
+}
+.dropdown-menu.dropdown-menu-right:before{
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 90%;
+    margin-left: -5px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+    z-index: 2;
+}
+/** END ARROW BOX UP **/
+
+/** MODAL CSS CENTER **/
+.modal {
+    padding: 0 !important;
+}
+
+.modal-backdrop.show {
+    opacity: 0.85;
+}
+
+/** END MODAL CSS CENTER **/
+
+/** MODAL WIDTH FULL **/
+.modal-dialog.modal-full {
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 100%;
+}
+
+.modal-dialog.modal-full .modal-content {
+    border-width: 0;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+.modal-dialog.modal-full .modal-content .modal-body {
+    position: relative;
+}
+
+/** END MODAL WIDTH FULL **/
+
+/** MODAL WIDTH FULL MIDDLE **/
+div.modal-dialog.modal-full-screen {
+    max-width: 100%;
+    width: 100%;
+    vertical-align: top;
+    margin: 0;
+    border-width: 0;
+    height: 100%;
+    display: inline-grid;
+}
+
+div.modal-dialog.modal-full-screen div.modal-content {
+    overflow-y: auto;
+    background-color: transparent;
+}
+
+div.modal-dialog.modal-full-screen div.modal-middle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/** END MODAL WIDTH FULL MIDDLE **/
+
+/** BUTTON SINGLE **/
+button.kt-btn-more {
+    display: inline-flex;
+    border: 1px solid #D1D1D1;
+    border-radius: 22.5px;
+    background-color: #FFFFFF;
+    padding: 5px 7px;
+}
+
+button.kt-btn-more i {
+    height: 32px;
+    width: 32px;
+}
+
+button.kt-btn-more span {
+    display: inline-flex;
+    vertical-align: text-bottom;
+    color: #248444;
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    line-height: 32px;
+    font-weight: 500;
+    margin: 0 11px 0 5px;
+}
+
+button.btn-submit-single {
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid #D1D1D1;
+    color: #9B9B9B;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    padding: 8px 10px;
+}
+
+button.btn-submit-single i {
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+    align-items: center;
+    justify-content: center;
+}
+
+button.btn-submit-single i svg {
+    width: 34px;
+    height: 16px;
+}
+
+button.btn-submit-single span {
+    display: inline-flex;
+    color: #474747;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 0 10px;
+    opacity: 0.4;
+    vertical-align: bottom;
+}
+
+button.btn-fixed-close {
+    background-color: #ffffffa6;
+    z-index: 999;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    border-radius: 240px;
+    display: inline-flex;
+    width: 42px;
+    height: 42px;
+}
+
+button.btn-fixed-close i {
+}
+
+/** END BUTTON SINGLE **/
+
+/** LOOP 3 DOTS **/
+.loader-ellips {
+    font-size: 20px; /* change size here */
+    position: relative;
+    width: 4em;
+    height: 1em;
+    margin: 10px auto;
+}
+
+.loader-ellips__dot {
+    display: block;
+    width: 1em;
+    height: 1em;
+    border-radius: 0.5em;
+    background: #555; /* change color here */
+    position: absolute;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.loader-ellips__dot:nth-child(1),
+.loader-ellips__dot:nth-child(2) {
+    left: 0;
+}
+
+.loader-ellips__dot:nth-child(3) {
+    left: 1.5em;
+}
+
+.loader-ellips__dot:nth-child(4) {
+    left: 3em;
+}
+
+@keyframes reveal {
+    from {
+        transform: scale(0.001);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes slide {
+    to {
+        transform: translateX(1.5em)
+    }
+}
+
+.loader-ellips__dot:nth-child(1) {
+    animation-name: reveal;
+}
+
+.loader-ellips__dot:nth-child(2),
+.loader-ellips__dot:nth-child(3) {
+    animation-name: slide;
+}
+
+.loader-ellips__dot:nth-child(4) {
+    animation-name: reveal;
+    animation-direction: reverse;
+}
+
+/** END LOOP 3 DOTS **/
+
+/** FORM INPUT HEIGHT 50PX **/
+div.height-50px {
+    border: 1px solid #D1D1D1;
+    padding: 8px 0;
+    border-radius: 4px;
+    height: 50px;
+    background-color: white;
+}
+
+div.height-50px input,
+div.height-50px input:focus {
+    border-color: transparent;
+}
+
+div.height-50px div.input-group-append span {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+div.height-50px .select2-container--bootstrap .select2-selection--single {
+    border-width: 0 !important;
+    box-shadow: none !important;
+    height: inherit;
+    padding-right: 31px !important;
+    min-width: 110px;
+    border-radius: 3px !important;
+}
+
+div.height-50px .select2-container--bootstrap .select2-selection--single .select2-selection__arrow {
+    opacity: 1;
+}
+
+div.height-50px .select2-container--bootstrap .select2-selection--single .select2-selection__arrow i {
+    right: 0;
+    top: 40%;
+    line-height: 34px;
+    position: absolute;
+}
+
+div.height-50px .select2-container--bootstrap .select2-selection--single .select2-selection__placeholder {
+    font-size: 14px;
+    opacity: 0.7;
+    color: #1B1B1B;
+    font-weight: 500;
+}
+
+div.height-50px .select2-container .select2-selection--single .select2-selection__rendered {
+    overflow: inherit;
+}
+
+div.height-50px .select2-container--bootstrap .select2-selection--single .select2-selection__rendered i.icon-avatar,
+div.height-50px .select2-container--bootstrap .select2-selection--single .select2-selection__placeholder i.icon-avatar {
+    display: inline-flex;
+    vertical-align: middle;
+    align-items: center;
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    border-radius: 120px;
+    background-color: #D8D8D8;
+    margin-top: -5px;
+    z-index: 9999999;
+    position: absolute;
+}
+
+div.height-50px .select2-container--bootstrap .select2-selection--single .select2-selection__rendered i.icon-avatar svg,
+div.height-50px .select2-container--bootstrap .select2-selection--single .select2-selection__placeholder i.icon-avatar svg {
+    margin: 0 auto;
+}
+
+div.height-50px .select2-container--bootstrap .select2-selection--single .select2-selection__rendered i.icon-avatar span,
+div.height-50px .select2-container--bootstrap .select2-selection--single .select2-selection__placeholder i.icon-avatar span {
+    background-size: 100% auto;
+    display: block;
+    height: 100%;
+    width: 100%;
+    border-radius: 120px;
+}
+
+div.height-50px .select2-container--bootstrap .select2-selection--single .select2-selection__placeholder b.name-avatar {
+    margin-left: 40px;
+    font-weight: 100;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+/** END FORM INPUT HEIGHT 50PX **/
+
+/** CSS DISPLAY FLEX */
+.kt-flex-container {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+}
+
+.flex-between {
+    justify-content: space-between;
+}
+
+.kt-absolute {
+    position: absolute;
+}
+
+/** END CSS DISPLAY FLEX */
+
+/** TOOLTIP VIEW CUSTOMER **/
+div.tootip-user {
+    padding: 8px 0;
+}
+
+div.tootip-user div.avatar {
+    border-radius: 120px;
+    overflow: hidden;
+    display: inline-table;
+    float: left;
+    margin-right: 20px;
+}
+
+div.tootip-user div.avatar img {
+    height: 90px;
+    width: 90px;
+}
+
+div.tootip-user div.info {
+    margin-left: 110px;
+}
+
+div.tootip-user div.info p {
+    margin-bottom: 5px;
+    color: #474747;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+div.tootip-user div.info h2 {
+    margin: 0 0 3px 0;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #248444;
+}
+
+div.tootip-user div.info span {
+    display: block;
+    line-height: 10px;
+    margin-bottom: 15px;
+}
+
+div.tootip-user div.info span i {
+    font-size: 9px;
+    color: #F5A623;
+    display: inline-block;
+    margin-right: -3px;
+}
+
+div.tootip-user div.info div.option {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+div.tootip-user div.info div.option button {
+    height: 35px;
+    width: 35px;
+    padding: 0;
+    line-height: 38px;
+    border-width: 0;
+    border-radius: 20px;
+    background-color: #F3F3F3;
+    margin: 0 5px 0 0;
+    display: inline-flex;
+}
+
+div.tootip-user div.info div.option button i,
+div.tootip-user div.info div.option button svg {
+    opacity: 0.7;
+}
+
+div.tootip-user div.detail {
+    border-radius: 5px;
+    background-color: #EEF7F1;
+    padding: 10px;
+    margin: 10px 5px;
+}
+
+div.tootip-user div.detail ul {
+    margin: 0;
+}
+
+div.tootip-user div.detail ul li {
+}
+
+div.tootip-user div.detail ul li b {
+    color: #1B1B1B;
+    display: block;
+    font-weight: bold;
+    line-height: 16px;
+    margin-bottom: 3px;
+}
+
+div.tootip-user div.detail ul li span {
+    opacity: 0.8;
+    display: block;
+    color: #474747;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/** END TOOLTIP VIEW CUSTOMER **/
+
+/** BEGIN */
+
+div.kt-wrap {
+}
+
+div.kt-grid {
+    display: grid;
+}
+
+div.kt-grid.grid-2 {
+    grid-template-columns: minmax(320px, auto) minmax(320px, auto);
+}
+
+/** CATEGORY **/
+div.index-category {
+    *zoom: 1;
+    clear: both;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    min-width: 120px;
+    width: 100%;
+}
+
+div.index-category:before,
+div.index-category:after {
+    display: table;
+    content: "";
+}
+
+div.index-category:after {
+    clear: both;
+}
+
+div.index-category div.menuH4 {
+    position: relative;
+}
+
+div.index-category div.menuH4 h4 {
+    opacity: 0.5;
+    color: #000000;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    padding: 3px 0;
+    margin: 0 35px 0 0;
+    display: inline-block;
+}
+
+div.index-category div.menuH4 h4:hover {
+    opacity: 1;
+}
+
+div.index-category div.menuH4 h4.active {
+    opacity: 1;
+}
+
+div.index-category ul {
+    z-index: 5;
+    margin-bottom: 0;
+}
+
+div.index-category ul li {
+    float: left;
+    margin-left: 27px;
+    position: relative;
+}
+
+div.index-category > ul > li {
+    position: relative;
+}
+
+div.index-category > ul > li.hidden {
+    display: none;
+}
+
+div.index-category > ul > li:hover {
+    background: white;
+}
+
+div.index-category > ul > li:hover ul {
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #DADADA;
+}
+
+div.index-category ul li form {
+    margin: 0;
+}
+
+div.index-category ul li a {
+    display: block;
+    padding: 9px 0 7px 0;
+}
+
+div.index-category ul li a span {
+}
+
+div.index-category ul.bold li a span {
+    font-weight: 600;
+    color: #9B9B9B;
+}
+
+div.index-category ul li.active a span {
+    font-weight: 600;
+    color: #474747;
+}
+
+div.index-category ul li a.clr {
+    padding: 0;
+}
+
+div.index-category ul li a button {
+    height: 34px;
+    border: 1px solid #D1D1D1;
+    border-radius: 17.5px;
+    background-color: #FFFFFF;
+    padding: 0 5px 0 10px;
+}
+
+div.index-category ul li a button span {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 32px;
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+div.index-category ul li a button i {
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+div.index-category ul ul {
+    background: white;
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 10px 10px 0 10px;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 3;
+}
+
+div.index-category ul ul li {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+}
+
+div.index-category ul ul li a {
+    margin-bottom: 10px;
+    padding: 0 10px;
+    white-space: nowrap;
+    display: block;
+}
+
+/** END CATEGORY **/
+
+/** ITEM PROJECT CSS **/
+div.kt-project-item {
+    position: relative;
+    margin: 15px;
+    min-width: 280px;
+}
+
+div.kt-project-item div.kt-share-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    flex-direction: column;
+}
+
+div.kt-project-item div.kt-share-box.hover {
+    opacity: 0;
+}
+
+div.kt-project-item:hover div.kt-share-box.hover {
+    opacity: 1;
+}
+
+div.kt-project-item div.kt-share-box button {
+    height: 30px;
+    width: 30px;
+    display: block;
+    border-radius: 120px;
+    background-color: #00000030;
+    text-align: center;
+    color: white;
+    border-width: 0;
+    padding-right: 0;
+    margin-bottom: 5px;
+    padding-top: 7px;
+    padding-left: 1px;
+}
+
+div.kt-project-item div.kt-share-box button:hover {
+    background-color: #000000a6;
+}
+
+div.kt-project-item div.item-image {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+div.kt-project-item div.item-image img {
+    width: 100%;
+}
+
+div.kt-project-item i.ipro {
+    position: absolute;
+    top: -2px;
+    left: 10px;
+    z-index: 1;
+}
+
+div.kt-project-item div.item-info {
+    padding: 10px;
+    border: 1px solid #DADADA;
+    border-top: 0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+div.kt-project-item div.item-info h2 {
+    width: 100%;
+    height: 32px;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 5px 0 6px 0;
+}
+
+div.kt-project-item div.item-info h2 a {
+    color: #1B1B1B;
+    font-weight: 900;
+}
+
+div.kt-project-item div.item-info div.view {
+    margin-bottom: 8px;
+}
+
+div.kt-project-item div.item-info div.view ul {
+    margin: 0;
+}
+
+div.kt-project-item div.item-info div.view ul li {
+    float: left;
+    line-height: 22px;
+    display: inline-block;
+    min-width: 50px;
+    margin-right: 10px;
+}
+
+div.kt-project-item div.item-info div.view ul li i {
+    opacity: 0.3;
+    color: #474747;
+}
+
+div.kt-project-item div.item-info div.view ul li span {
+    font-weight: 500;
+    color: #474747;
+    font-size: 12px;
+}
+
+div.kt-project-item div.item-info div.customer {
+    margin-top: 10px;
+}
+
+div.kt-project-item div.item-info div.customer div.avatar {
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 120px;
+    overflow: hidden;
+    float: left;
+    margin-right: 5px;
+}
+
+div.kt-project-item div.item-info div.customer div.avatar img {
+}
+
+div.kt-project-item div.item-info div.customer span {
+    line-height: 24px;
+    color: #248444;
+    font-size: 12px;
+}
+
+div.kt-project-item div.view .kt-text-right {
+    opacity: .6;
+    color: #1B1B1B;
+    font-size: 12px;
+    line-height: 22px;
+    text-align: right;
+    margin: 0;
+    font-weight: 400;
+}
+
+div.kt-project-item div.customer .kt-text-right-2 {
+    margin: 0;
+}
+
+div.kt-project-item div.customer .kt-text-right-2 span {
+    color: #1B1B1B !important;
+    line-height: 22px !important;
+    margin: 0;
+    font-weight: 400;
+    opacity: .6;
+}
+
+/** END ITEM PROJECT CSS **/
+
+/** MODAL FULL WIDTH **/
+div.modal-body div.content-cus-see-project {
+    background-color: white;
+    margin: 50px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+/** END MODAL FULL WIDTH **/
+
+/** FANCYBOX FOR MOBILE **/
+@media (max-width: 768px) {
+    .fancybox-show-thumbs .fancybox-thumbs{
+        display: none !important;
+    }
+    .fancybox-show-thumbs .fancybox-inner{
+        right: 0 !important;
+    }
+}
+/** END FANCYBOX FOR MOBILE **/
+

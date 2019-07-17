@@ -1,0 +1,330 @@
+/**
+** phan comment chung cho website
+ */
+div.comment {
+}
+
+div.comment div.form {
+    display: grid;
+    grid-template-columns: 42px minmax(320px, auto);
+    grid-gap: 15px;
+}
+
+div.comment div.form div.avatar {
+    height: 42px;
+    width: 42px;
+    border-radius: 120px;
+}
+
+div.comment div.form div.avatar img {
+    border-radius: 120px;
+}
+
+div.comment div.form div.typing {
+}
+
+div.comment div.form div.typing div.text {
+    min-height: 80px;
+    width: 100%;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+}
+
+div.comment div.form div.typing div.action {
+
+}
+
+div.comment div.form div.typing div.action div.float-left button {
+    border-width: 0;
+    height: 35px;
+    display: inline-flex;
+}
+
+div.comment div.form div.typing div.action div.float-right button {
+    border: 1px solid #D1D1D1;
+    border-radius: 17.5px;
+    background-color: #FFFFFF;
+    padding: 5px 7px;
+}
+
+div.comment div.form div.typing div.action div.float-right button span {
+    color: #474747;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    display: inline-flex;
+    vertical-align: text-bottom;
+    margin: 0 5px 0 9px;
+}
+
+div.comment div.form div.typing div.action div.float-right button i {
+    width: 23px;
+    height: 23px;
+}
+
+div.comment div.head {
+}
+
+div.comment div.head h2 {
+    color: #2D2D2D;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+div.comment div.head button {
+    color: #B7B7B7;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    border-width: 0;
+}
+
+div.comment div.head button.active {
+    color: #2D2D2D;
+}
+
+div.comment div.main {
+    padding-top: 20px;
+}
+
+div.comment div.main div.container-comm {
+    display: grid;
+    grid-template-columns: 42px minmax(275px, auto);
+    grid-gap: 10px;
+}
+
+div.container-comm div.avatar {
+    height: 42px;
+    width: 42px;
+    border-radius: 120px;
+}
+
+div.container-comm div.avatar img {
+    border-radius: 120px;
+}
+
+div.container-comm div.text {
+}
+
+div.container-comm div.text div.fullname {
+}
+
+div.container-comm div.text div.fullname b {
+    color: #248444;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+div.container-comm div.text div.fullname ul {
+}
+
+div.container-comm div.text div.fullname ul li {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+div.container-comm div.text div.fullname ul li i {
+    margin-right: 5px;
+}
+
+div.container-comm div.text div.fullname ul li span {
+    color: #727272;
+    font-size: 12px;
+    line-height: 20px;
+    display: inline-flex;
+}
+
+div.container-comm div.text div.star {
+    color: #F5A623;
+}
+
+div.container-comm div.text div.star i {
+    font-size: 10px;
+}
+
+div.container-comm div.text div.actived {
+}
+
+div.container-comm div.text div.actived div.info {
+    color: #2D2D2D;
+    line-height: 20px;
+    position: relative;
+    padding: 10px 45px 0 0;
+    min-height: 50px;
+}
+
+div.container-comm div.text div.actived div.info .edit {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+div.container-comm div.text div.actived div.info .edit button {
+    padding: 0 4px;
+    line-height: 10px;
+    background-color: transparent;
+    border-width: 0;
+    color: #727272;
+    display: none;
+}
+
+div.container-comm div.text div.actived div.info .edit .dropdown.show button {
+    display: block;
+}
+
+div.container-comm div.text div.actived div.info:hover .edit button {
+    display: block;
+}
+
+div.container-comm div.text div.actived div.info .edit button:hover {
+    color: black;
+}
+
+div.container-comm div.text div.actived div.info .thank {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border: 1px solid #D1D1D1;
+    border-radius: 17.5px;
+    background-color: #FFFFFF;
+    padding: 3px 6px;
+}
+
+div.container-comm div.text div.actived div.info .thank span {
+    display: inline-flex;
+    font-size: 10px;
+    color: #727272;
+}
+
+div.container-comm div.text div.actived div.action {
+}
+
+div.container-comm div.text div.actived div.action button {
+    color: #727272;
+    font-size: 12px;
+    line-height: 22px;
+    border-width: 0;
+    padding-right: 20px;
+}
+
+div.container-comm div.text div.actived div.more-reply {
+}
+
+div.container-comm div.text div.actived div.more-reply button {
+    color: #727272;
+    font-size: 12px;
+    line-height: 21px;
+    border-width: 0;
+    padding: 0;
+}
+
+div.container-comm div.text div.actived div.more-reply button b {
+    font-weight: 400;
+}
+
+div.container-comm div.text div.update-fr {
+}
+
+div.container-comm div.text div.update-fr div.area {
+    min-height: 80px;
+    width: 100%;
+    border: 1px solid #D1D1D1;
+    border-radius: 5px;
+    background-color: #F7F7F7;
+    padding: 10px 15px;
+}
+
+div.container-comm div.text div.update-fr div.area div.tinymce {
+    min-height: 30px;
+    margin-bottom: 10px;
+}
+
+div.container-comm div.text div.update-fr div.area ul.photo {
+    margin: 0;
+}
+
+div.container-comm div.text div.update-fr div.area ul.photo li {
+    display: inline-flex;
+    position: relative;
+}
+
+div.container-comm div.text div.update-fr div.area ul.photo li img {
+    height: 70px;
+    border-radius: 4px;
+}
+
+div.container-comm div.text div.update-fr div.area ul.photo li button {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    padding: 0;
+    line-height: 20px;
+    color: white;
+    font-weight: 700;
+    background-color: red;
+    height: 22px;
+    width: 22px;
+    text-align: center;
+    border-radius: 240px;
+    opacity: 0.4;
+}
+
+div.container-comm div.text div.update-fr div.submit button {
+    color: #248444;
+    font-size: 12px;
+    line-height: 20px;
+    border-width: 0;
+    display: inline-flex;
+}
+
+div.container-comm div.text div.actived div.form-reply {
+    display: grid;
+    grid-template-columns: 42px auto 40px;
+    grid-gap: 15px;
+}
+
+div.container-comm div.text div.actived div.form-reply div.avatar {
+    height: 42px;
+    width: 42px;
+    border-radius: 120px;
+}
+
+div.container-comm div.text div.actived div.form-reply div.avatar img {
+    border-radius: 120px;
+}
+
+div.container-comm div.text div.actived div.form-reply div.info {
+    min-height: 40px;
+    width: 100%;
+    border: 1px solid #E0E0E0;
+    border-radius: 20px;
+    background-color: #F5F5F5;
+    padding: 10px 15px;
+    line-height: 20px;
+}
+
+div.container-comm div.text div.actived div.form-reply div.submit {
+}
+
+div.container-comm div.text div.actived div.form-reply div.submit button {
+    display: inline-flex;
+    padding: 13px 0;
+}
+
+@media only screen and (max-width: 768px) {
+    div.comment div.form{
+        grid-template-columns: 42px auto;
+    }
+    div.comment div.main div.container-comm{
+        grid-template-columns: 42px auto;
+    }
+    div.grid-sort-d div.kt-detail-bottom-left{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}

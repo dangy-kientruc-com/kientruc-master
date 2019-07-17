@@ -1,0 +1,19 @@
+div.detail-bg-head {
+    min-height: 66px;
+    padding: 20px 30px 0 30px;
+    background-color: #F2F2F2;
+}
+
+div.detail-bg-head div.float-left button {
+    display: inline-flex;
+}
+
+div.detail-bg-head div.float-left button span {
+    color: #248444;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+    display: inline-flex;
+    vertical-align: text-top;
+    line-height: 16px;
+}
