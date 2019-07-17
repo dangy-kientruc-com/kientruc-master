@@ -2,7 +2,7 @@
 $params = array_merge(
     require __DIR__ . '/../../common/config/params.php',
     require __DIR__ . '/params.php');
-$this_url = '/kientruc-master/';
+$this_url = '/';
 return [
     'id' => 'app-frontend',
     'basePath' => dirname(__DIR__),
@@ -17,19 +17,25 @@ return [
         'request' => [
             'baseUrl' => $this_url,
             'csrfParam' => '_csrf-frontend',
-            'cookieValidationKey' => 'xxxxxxx',
+            'cookieValidationKey' => 'kientruc_frontend',
         ],
         'user' => [
             'identityClass' => 'common\models\User',
             'enableAutoLogin' => true,
             'identityCookie' => [
                 'name' => '_identity-frontend',
+                //'domain' => '.kientruc.com',
                 'httpOnly' => true,
             ],
         ],
         'session' => [
             // this is the name of the session cookie used for login on the frontend
-            'name' => 'advanced-frontend',
+            'name' => '_identity-frontend',
+//            'savePath' => '@frontend/runtime',
+//            'cookieParams' => [
+//                'domain' => '.kientruc.com',
+//                'httpOnly' => true,
+//            ],
         ],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
